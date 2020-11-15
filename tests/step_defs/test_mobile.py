@@ -3,7 +3,7 @@ from pytest_bdd import scenario, given, when, then, parsers, scenarios
 from utilities.mark_test_status import MarkTestStatus
 
 
-@scenario("C:\\Users\\A610037\\PycharmProjects\\pytest-bdd\\tests\\features\\ecommerce.feature", "Check Mobile Phone")
+@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\ecommerce.feature", "Check Mobile Phone")
 def test_one():
     pass
 
@@ -30,7 +30,7 @@ convertors = {'name': str,
 
 
 
-@scenario("C:\\Users\\A610037\\PycharmProjects\\pytest-bdd\\tests\\features\\ecommerce.feature",
+@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\ecommerce.feature",
           scenario_name="Check Sort By functionality",example_converters= convertors)
 def test_sort_by_functionality():
     pass
