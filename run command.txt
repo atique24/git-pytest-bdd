@@ -1,0 +1,11 @@
+navigate to the test path
+
+#run all pytest-bdd 
+pytest -s -v --browser Chrome
+
+#run only tags at Feature level
+pytest -s -v --browser Chrome -k "tagname"
+pytest -s -v --browser Chrome -k "tagname and tagname"          #multiple tagnames. We can use any operator(and,or,not)
+
+#run only tags at scenario/scenario's level
+pytest -s -v --browser Chrome -m "tagname"
