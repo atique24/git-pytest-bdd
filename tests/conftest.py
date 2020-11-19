@@ -4,6 +4,7 @@ from pytest_bdd import given
 from pages.mobile_page.mobile_page import MobilePage
 from pages.account_creation.account_creation import Account
 from utilities.mark_test_status import MarkTestStatus
+from pytest_bdd import given,when,then,parsers,scenarios,scenario
 
 
 
@@ -47,7 +48,7 @@ def browser_initialization(setup):
     setup.get("http://live.demoguru99.com/index.php/")
 
 
-# -----POM Class initialization
+# -----POM Class initialization add below
 @pytest.fixture()
 def mobile(setup):
     return MobilePage(setup)
@@ -61,3 +62,12 @@ def account(setup):
 @pytest.fixture()
 def mts(setup):
     return MarkTestStatus(setup)
+
+
+# --------------common steps add below
+@pytest.fixture()
+@when("I click on Mobile Tab")
+def click_mobile_tab(mobile):
+    mobile.mobile_tab()
+
+
