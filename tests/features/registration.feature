@@ -7,7 +7,7 @@ Feature: ecommerce website
 
 
   Scenario Outline: Registration
-    Given the ecommerce website is opened
+    Given I am in the ecommerce website
     When I click on Account
     And I select Register option from dropdown menu
     And I enter "<firstname>" "<lastname>" "<email>" "<password>" "<confirm>"

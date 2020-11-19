@@ -7,7 +7,7 @@ Feature: ecommerce website
 
   @sortBy              #scenario level tag
   Scenario Outline: Check Sort By functionality
-    Given the ecommerce website is opened
+    Given I am in the ecommerce website
     When I click on Mobile Tab
     And I select Sort By "<Name>"
     Then all the available mobiles are sorted by "<result>"
@@ -22,6 +22,7 @@ Feature: ecommerce website
     Given the ecommerce website is opened
     When I click on Mobile Tab
     Then all available mobiles are displayed
+
 
 
 

@@ -2,6 +2,8 @@ from base.base_page import BasePage
 from utilities.customlogger import custom_logger
 import logging
 from utilities.util import Utilities
+from selenium import webdriver
+
 
 
 
@@ -30,9 +32,9 @@ class MobilePage(BasePage):
     _cart_quantity = "//input[@data-cart-item-id='MOB001' and @title='Qty']"
     _update = "//button[@title='Update']/span/span"
     _error = "//span[text()='Some of the products cannot be ordered in requested quantity.']"
-    _compare_xperia = "//a[@title='Xperia']//following-sibling::div/child::div/child::div/child::ul/li/a[text()='Add to Compare']"
-    _compare_apple = "//a[@title='IPhone']//following-sibling::div/child::div/child::div/child::ul/li/a[text()='Add to Compare']"
+    _compare_add_product = "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"
     _compare_button = "//span[text()='Compare']"
+    _compare_screen = "//h1[text()='Compare Products']"
     _iphone_new = "//a[text()='IPhone']"
     _close_window = "//span[text()='Close Window']"
     _available_mobile = "//div[@class='category-products']/ul/li/a"
@@ -87,24 +89,51 @@ class MobilePage(BasePage):
         return value2
 
 
+    def add_product1_for_compare(self,mobile1):
+        compare = f"//a[text()='{mobile1}']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"
+        self.elementClick(compare,'xpath')
 
+    def add_product2_for_compare(self,mobile2):
+        compare = f"//a[text()='{mobile2}']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"
+        self.elementClick(compare,'xpath')
 
-    def verify_price_different_view(self):
-        self.click_list_view()
-        return self.utill.verify_values(self.sony_price_list_view(),self.sony_price_grid_view())
-
-    def verify_max_cart_error(self):
-        self.add_to_cart()
-        return self.enter_cart_quantity_and_update()
-
-    def click_compare_(self):
-        self.elementClick(self._compare_xperia,'xpath')
-        self.elementClick(self._compare_apple,'xpath')
+    def click_compare_button(self):
         self.elementClick(self._compare_button,'xpath')
+
+    def confirm_compare_window(self):
         self.switching_to_window()
-        result1 = self.isElementDisplayed(self._iphone_new,'xpath')
-        self.elementClick(self._close_window,'xpath')
-        return result1
+        return self.isElementDisplayed(self._compare_screen,'xpath')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # def verify_price_different_view(self):
+    #     self.click_list_view()
+    #     return self.utill.verify_values(self.sony_price_list_view(),self.sony_price_grid_view())
+    #
+    # def verify_max_cart_error(self):
+    #     self.add_to_cart()
+    #     return self.enter_cart_quantity_and_update()
+    #
+    # def click_compare_(self):
+    #     self.elementClick(self._compare_xperia,'xpath')
+    #     self.elementClick(self._compare_apple,'xpath')
+    #     self.elementClick(self._compare_button,'xpath')
+    #     self.switching_to_window()
+    #     result1 = self.isElementDisplayed(self._iphone_new,'xpath')
+    #     self.elementClick(self._close_window,'xpath')
+    #     return result1
 
 
 

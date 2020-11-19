@@ -42,7 +42,7 @@ def setup(request, browser):
     driver.quit()
 
 
-@given("the ecommerce website is opened")
+@given("I am in the ecommerce website")
 def browser_initialization(setup):
     setup.get("http://live.demoguru99.com/index.php/")
 
