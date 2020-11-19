@@ -13,5 +13,7 @@ Feature:Compare products
     And I click compare button
     Then compare products page is displayed.
     Examples:
-      | mobile1 | mobile2 |
-      |Sony Xperia| IPhone|
+      | mobile1       | mobile2       |
+      |Sony Xperia    | IPhone        |
+      |Samsung Galaxy | IPhone        |
+      |Sony Xperia    | Samsung Galaxy|
