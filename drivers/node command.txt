@@ -1,0 +1,5 @@
+Node :
+java -Dwebdriver.chrome.driver="chromedriver.exe" -Dwebdriver.ie.driver="IEDriverServer.exe" -Dwebdriver.gecho.driver="geckodriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig nodeConfig.json
+
+Hub :
+java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig gridHubConfig.json

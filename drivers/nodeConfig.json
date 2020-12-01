@@ -1,0 +1,44 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "internet explorer",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.ie.driver": "C:/Users/A610037/PycharmProjects/drivers/IEDriverServer.exe",
+      "binary":"C:/Program Files (x86)/Internet Explorer/iexplore.exe"
+    },
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.chrome.driver": "C:/Users/A610037/PycharmProjects/drivers/chromedriver.exe",
+      "binary":"C:/Program Files/Google/Chrome/Application/chrome.exe"
+    },
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "maxInstances": 5,
+      "seleniumProtocol": "WebDriver",
+      "webdriver.gecko.driver": "C:/Users/A610037/PycharmProjects/drivers/geckodriver.exe",
+      "binary":"C:/Program Files/Mozilla Firefox/firefox.exe"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "maxSession": 5,
+  "port": 5555,
+  "register": true,
+  "registerCycle": 5000,
+  "hub": "http://192.168.0.59:4444",
+  "nodeStatusCheckTimeout": 5000,
+  "nodePolling": 5000,
+  "role": "node",
+  "unregisterIfStillDownAfter": 60000,
+  "downPollingLimit": 2,
+  "debug": false,
+  "servlets" : [],
+  "withoutServlets": [],
+  "custom": {}
+}
