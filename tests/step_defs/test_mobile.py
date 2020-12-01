@@ -9,11 +9,11 @@ def test_one():
 
 
 
-@when("I click on Mobile Tab")
-def click_mobile_tab(mobile):
-    mobile.mobile_tab()
+# @when("I click on Mobile Tab")
+# def click_mobile_tab(mobile):
+#     mobile.mobile_tab()
 
-
+@pytest.mark.usefixtures("click_mobile_tab")
 @then("all available mobiles are displayed")
 def mobile_phone_displayed(mobile, mts):
     result = mobile.available_mobiles(expected_list=['Xperia', 'IPhone', 'Samsung Galaxy'])

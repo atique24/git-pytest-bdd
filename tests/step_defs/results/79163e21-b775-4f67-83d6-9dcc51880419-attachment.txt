@@ -1,0 +1,10 @@
+[32mINFO    [0m MobilePage:selenium_driver.py:55 Element found with locatorType : link & locator : MOBILE<selenium.webdriver.remote.webelement.WebElement (session="484552f85a2b1dd9983f4d2fa9540614", element="34e3d937-0d46-4258-a0ea-ee3c40004b97")>
+[32mINFO    [0m MobilePage:selenium_driver.py:105 Clicked on Element : <selenium.webdriver.remote.webelement.WebElement (session="484552f85a2b1dd9983f4d2fa9540614", element="34e3d937-0d46-4258-a0ea-ee3c40004b97")>
+[32mINFO    [0m MobilePage:selenium_driver.py:55 Element found with locatorType : xpath & locator : //select[@title='Sort By']<selenium.webdriver.remote.webelement.WebElement (session="484552f85a2b1dd9983f4d2fa9540614", element="9a989070-5001-4d9b-957e-6ce977472663")>
+[32mINFO    [0m MobilePage:selenium_driver.py:89 Selected element with value Price from the drop down using Visible Text
+[32mINFO    [0m MobilePage:selenium_driver.py:69 Element found with locatorType : xpath& locator : //li[@class='item last']//child::div/h2/a
+[32mINFO    [0m MobilePage:selenium_driver.py:149 ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+[32mINFO    [0m Utilities:util.py:68 Expected List is :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+[32mINFO    [0m Utilities:util.py:69 Actual List is :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+[32mINFO    [0m MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Sort By Functionality Tested
+[32mINFO    [0m MarkTestStatus:mark_test_status.py:49 Sort By### Test Passed

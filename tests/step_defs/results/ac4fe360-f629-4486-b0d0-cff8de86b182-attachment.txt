@@ -1,0 +1,10 @@
+[32mINFO    [0m MobilePage:selenium_driver.py:55 Element found with locatorType : link & locator : MOBILE<selenium.webdriver.remote.webelement.WebElement (session="146291fd941f4da816e692c9fe72266b", element="92c63d88-a29d-480d-856a-48c45e300d7c")>
+[32mINFO    [0m MobilePage:selenium_driver.py:105 Clicked on Element : <selenium.webdriver.remote.webelement.WebElement (session="146291fd941f4da816e692c9fe72266b", element="92c63d88-a29d-480d-856a-48c45e300d7c")>
+[32mINFO    [0m MobilePage:selenium_driver.py:69 Element found with locatorType : xpath& locator : //div[@class='category-products']/ul/li/a
+[32mINFO    [0m MobilePage:selenium_driver.py:175 Value of Attribute :: title is Xperia
+[32mINFO    [0m MobilePage:selenium_driver.py:175 Value of Attribute :: title is IPhone
+[32mINFO    [0m MobilePage:selenium_driver.py:175 Value of Attribute :: title is Samsung Galaxy
+[32mINFO    [0m Utilities:util.py:68 Expected List is :: ['Xperia', 'IPhone', 'Samsung Galaxy']
+[32mINFO    [0m Utilities:util.py:69 Actual List is :: ['Xperia', 'IPhone', 'Samsung Galaxy']
+[32mINFO    [0m MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Verified all mobiles are available
+[32mINFO    [0m MarkTestStatus:mark_test_status.py:49 Verify all mobiles are available### Test Passed

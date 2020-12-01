@@ -1,0 +1,6 @@
+pytest-bdd
+pytest
+pytest-html
+selenium
+pytest-ordering
+pytest-rerunfailures

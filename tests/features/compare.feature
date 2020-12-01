@@ -1,10 +1,10 @@
-@compare
+
 Feature:Compare products
   As a consumer
   I can compare the products
   Before buying them
 
-
+  @compare
   Scenario Outline: Compare Mobile
     Given I am in the ecommerce website
     When I click on Mobile Tab

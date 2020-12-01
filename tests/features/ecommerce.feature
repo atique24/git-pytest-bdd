@@ -19,7 +19,7 @@ Feature: ecommerce website
 
 
   Scenario: Check Mobile Phone
-    Given the ecommerce website is opened
+    Given I am in the ecommerce website
     When I click on Mobile Tab
     Then all available mobiles are displayed
 
