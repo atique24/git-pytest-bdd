@@ -1,0 +1,12 @@
+py.test -s -v --browser Chrome --html=testsuite.html --reruns 5		
+
+
+-s -v for printing the statement
+--html = file.html
+--reruns = number of retries
+--last-failed = to run the last failed test from the .pycache
+--reruns-delay 1 = to rerun the failed tests with some delay
+
+
+check the url
+https://pydigger.com/pypi/pytest-rerunfailures
