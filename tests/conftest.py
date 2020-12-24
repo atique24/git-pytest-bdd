@@ -23,7 +23,7 @@ def browser(request):
 
 
 @pytest.fixture()
-def setup(request, browser):
+def setup(request,browser):
     if browser == 'Chrome':
         driver = webdriver.Chrome()
 
@@ -36,8 +36,8 @@ def setup(request, browser):
     driver.maximize_window()
     driver.implicitly_wait(10)
 
-    if request.cls is not None:
-        request.cls.driver = driver
+    # if request.cls is not None:
+    #     request.cls.driver = driver
 
     yield driver
     driver.quit()

@@ -7,7 +7,7 @@ def custom_logger(loglevel = logging.INFO):
     logger = logging.getLogger(loggername)
     logger.setLevel(loglevel)
 
-    filehander = logging.FileHandler(filename="Automation.log" , mode="a")
+    filehander = logging.FileHandler(filename="logs//Automation.log", mode="a")
     filehander.setLevel(loglevel)
 
     formatter = logging.Formatter('%(asctime)s: %(name)s: %(levelname)s: %(message)s', datefmt='%d:%m:%y %H:%M:%S')

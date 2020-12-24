@@ -2,12 +2,10 @@ import pytest
 from pytest_bdd import scenario, given, when, then, parsers, scenarios
 from utilities.mark_test_status import MarkTestStatus
 
-
+@pytest.mark.skip
 @scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\ecommerce.feature", "Check Mobile Phone")
 def test_one():
     pass
-
-
 
 # @when("I click on Mobile Tab")
 # def click_mobile_tab(mobile):
