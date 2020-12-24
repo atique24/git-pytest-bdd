@@ -13,9 +13,9 @@ Feature: ecommerce website
     Then all the available mobiles are sorted by "<result>"
     Examples:
       | Name     | result                                 |
-      | Name     | [IPHONE, SAMSUNG GALAXY, SONY XPERIA]  |
-      | Price    | [SONY XPERIA, SAMSUNG GALAXY, IPHONE]  |
-      | Position | [SONY XPERIA, IPHONE, SAMSUNG GALAXY]  |
+      | Name     | [IPHONE, SAMSUNG GALAXY1, SONY XPERIA]  |
+      | Price    | [SONY XPERIA, SAMSUNG GALAXY2, IPHONE]  |
+      | Position | [SONY XPERIA, IPHONE, SAMSUNG GALAXY3]  |
 
 
   Scenario: Check Mobile Phone
