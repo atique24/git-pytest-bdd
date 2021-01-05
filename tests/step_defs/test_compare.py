@@ -44,4 +44,4 @@ def when_step3(mobile):
 def then_step1(mobile, mts):
     result = mobile.confirm_compare_window()
     mts.finalMark(testcase="compare functionality", result=result, resultMessage="Product compare successfully")
-    assert True == False
+
