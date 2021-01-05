@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Test Report</title>
+    <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
+  <body onLoad="init()">
+    <script>/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+
+function toArray(iter) {
+    if (iter === null) {
+        return null;
+    }
+    return Array.prototype.slice.call(iter);
+}
+
+function find(selector, elem) { // eslint-disable-line no-redeclare
+    if (!elem) {
+        elem = document;
+    }
+    return elem.querySelector(selector);
+}
+
+function findAll(selector, elem) {
+    if (!elem) {
+        elem = document;
+    }
+    return toArray(elem.querySelectorAll(selector));
+}
+
+function sortColumn(elem) {
+    toggleSortStates(elem);
+    const colIndex = toArray(elem.parentNode.childNodes).indexOf(elem);
+    let key;
+    if (elem.classList.contains('result')) {
+        key = keyResult;
+    } else if (elem.classList.contains('links')) {
+        key = keyLink;
+    } else {
+        key = keyAlpha;
+    }
+    sortTable(elem, key(colIndex));
+}
+
+function showAllExtras() { // eslint-disable-line no-unused-vars
+    findAll('.col-result').forEach(showExtras);
+}
+
+function hideAllExtras() { // eslint-disable-line no-unused-vars
+    findAll('.col-result').forEach(hideExtras);
+}
+
+function showExtras(colresultElem) {
+    const extras = colresultElem.parentNode.nextElementSibling;
+    const expandcollapse = colresultElem.firstElementChild;
+    extras.classList.remove('collapsed');
+    expandcollapse.classList.remove('expander');
+    expandcollapse.classList.add('collapser');
+}
+
+function hideExtras(colresultElem) {
+    const extras = colresultElem.parentNode.nextElementSibling;
+    const expandcollapse = colresultElem.firstElementChild;
+    extras.classList.add('collapsed');
+    expandcollapse.classList.remove('collapser');
+    expandcollapse.classList.add('expander');
+}
+
+function showFilters() {
+    const filterItems = document.getElementsByClassName('filter');
+    for (let i = 0; i < filterItems.length; i++)
+        filterItems[i].hidden = false;
+}
+
+function addCollapse() {
+    // Add links for show/hide all
+    const resulttable = find('table#results-table');
+    const showhideall = document.createElement('p');
+    showhideall.innerHTML = '<a href="javascript:showAllExtras()">Show all details</a> / ' +
+                            '<a href="javascript:hideAllExtras()">Hide all details</a>';
+    resulttable.parentElement.insertBefore(showhideall, resulttable);
+
+    // Add show/hide link to each result
+    findAll('.col-result').forEach(function(elem) {
+        const collapsed = getQueryParameter('collapsed') || 'Passed';
+        const extras = elem.parentNode.nextElementSibling;
+        const expandcollapse = document.createElement('span');
+        if (extras.classList.contains('collapsed')) {
+            expandcollapse.classList.add('expander');
+        } else if (collapsed.includes(elem.innerHTML)) {
+            extras.classList.add('collapsed');
+            expandcollapse.classList.add('expander');
+        } else {
+            expandcollapse.classList.add('collapser');
+        }
+        elem.appendChild(expandcollapse);
+
+        elem.addEventListener('click', function(event) {
+            if (event.currentTarget.parentNode.nextElementSibling.classList.contains('collapsed')) {
+                showExtras(event.currentTarget);
+            } else {
+                hideExtras(event.currentTarget);
+            }
+        });
+    });
+}
+
+function getQueryParameter(name) {
+    const match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function init () { // eslint-disable-line no-unused-vars
+    resetSortHeaders();
+
+    addCollapse();
+
+    showFilters();
+
+    sortColumn(find('.initial-sort'));
+
+    findAll('.sortable').forEach(function(elem) {
+        elem.addEventListener('click',
+            function() {
+                sortColumn(elem);
+            }, false);
+    });
+}
+
+function sortTable(clicked, keyFunc) {
+    const rows = findAll('.results-table-row');
+    const reversed = !clicked.classList.contains('asc');
+    const sortedRows = sort(rows, keyFunc, reversed);
+    /* Whole table is removed here because browsers acts much slower
+     * when appending existing elements.
+     */
+    const thead = document.getElementById('results-table-head');
+    document.getElementById('results-table').remove();
+    const parent = document.createElement('table');
+    parent.id = 'results-table';
+    parent.appendChild(thead);
+    sortedRows.forEach(function(elem) {
+        parent.appendChild(elem);
+    });
+    document.getElementsByTagName('BODY')[0].appendChild(parent);
+}
+
+function sort(items, keyFunc, reversed) {
+    const sortArray = items.map(function(item, i) {
+        return [keyFunc(item), i];
+    });
+
+    sortArray.sort(function(a, b) {
+        const keyA = a[0];
+        const keyB = b[0];
+
+        if (keyA == keyB) return 0;
+
+        if (reversed) {
+            return keyA < keyB ? 1 : -1;
+        } else {
+            return keyA > keyB ? 1 : -1;
+        }
+    });
+
+    return sortArray.map(function(item) {
+        const index = item[1];
+        return items[index];
+    });
+}
+
+function keyAlpha(colIndex) {
+    return function(elem) {
+        return elem.childNodes[1].childNodes[colIndex].firstChild.data.toLowerCase();
+    };
+}
+
+function keyLink(colIndex) {
+    return function(elem) {
+        const dataCell = elem.childNodes[1].childNodes[colIndex].firstChild;
+        return dataCell == null ? '' : dataCell.innerText.toLowerCase();
+    };
+}
+
+function keyResult(colIndex) {
+    return function(elem) {
+        const strings = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed',
+            'Skipped', 'Passed'];
+        return strings.indexOf(elem.childNodes[1].childNodes[colIndex].firstChild.data);
+    };
+}
+
+function resetSortHeaders() {
+    findAll('.sort-icon').forEach(function(elem) {
+        elem.parentNode.removeChild(elem);
+    });
+    findAll('.sortable').forEach(function(elem) {
+        const icon = document.createElement('div');
+        icon.className = 'sort-icon';
+        icon.textContent = 'vvv';
+        elem.insertBefore(icon, elem.firstChild);
+        elem.classList.remove('desc', 'active');
+        elem.classList.add('asc', 'inactive');
+    });
+}
+
+function toggleSortStates(elem) {
+    //if active, toggle between asc and desc
+    if (elem.classList.contains('active')) {
+        elem.classList.toggle('asc');
+        elem.classList.toggle('desc');
+    }
+
+    //if inactive, reset all other functions and add ascending active
+    if (elem.classList.contains('inactive')) {
+        resetSortHeaders();
+        elem.classList.remove('inactive');
+        elem.classList.add('active');
+    }
+}
+
+function isAllRowsHidden(value) {
+    return value.hidden == false;
+}
+
+function filterTable(elem) { // eslint-disable-line no-unused-vars
+    const outcomeAtt = 'data-test-result';
+    const outcome = elem.getAttribute(outcomeAtt);
+    const classOutcome = outcome + ' results-table-row';
+    const outcomeRows = document.getElementsByClassName(classOutcome);
+
+    for(let i = 0; i < outcomeRows.length; i++){
+        outcomeRows[i].hidden = !elem.checked;
+    }
+
+    const rows = findAll('.results-table-row').filter(isAllRowsHidden);
+    const allRowsHidden = rows.length == 0 ? true : false;
+    const notFoundMessage = document.getElementById('not-found-message');
+    notFoundMessage.hidden = !allRowsHidden;
+}
+</script>
+    <h1>report.html</h1>
+    <p>Report generated on 05-Jan-2021 at 23:23:18 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <h2>Environment</h2>
+    <table id="environment">
+      <tr>
+        <td>JAVA_HOME</td>
+        <td>C:\Program Files\Java\jdk-14.0.2</td></tr>
+      <tr>
+        <td>Packages</td>
+        <td>{"pluggy": "0.13.1", "py": "1.9.0", "pytest": "6.2.1"}</td></tr>
+      <tr>
+        <td>Platform</td>
+        <td>Windows-10-10.0.18362-SP0</td></tr>
+      <tr>
+        <td>Plugins</td>
+        <td>{"allure-pytest": "2.8.22", "bdd": "4.0.2", "fixtures": "0.1.0", "forked": "1.3.0", "html": "3.1.1", "metadata": "1.10.0", "ordering": "0.6", "rerunfailures": "9.1.1", "xdist": "2.1.0"}</td></tr>
+      <tr>
+        <td>Python</td>
+        <td>3.8.2</td></tr></table>
+    <h2>Summary</h2>
+    <p>3 tests ran in 35.07 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <h2>Results</h2>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable result initial-sort" col="result">Result</th>
+          <th class="sortable" col="name">Test</th>
+          <th class="sortable" col="duration">Duration</th>
+          <th class="sortable links" col="links">Links</th></tr>
+        <tr hidden="true" id="not-found-message">
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Sony Xperia-IPhone]</td>
+          <td class="col-duration">12.25</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;ffbfc8af-ffe0-4822-ac7f-030e25162648&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;ffbfc8af-ffe0-4822-ac7f-030e25162648&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;62037f6d-de0d-4d73-bce5-2fa9883906bb&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;62037f6d-de0d-4d73-bce5-2fa9883906bb&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;c7a6e0bb-c380-4bf6-9667-cb8cdbe3f354&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;c7a6e0bb-c380-4bf6-9667-cb8cdbe3f354&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;5706e472-d8b7-4545-bf6b-edeceea0041e&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;5706e472-d8b7-4545-bf6b-edeceea0041e&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-7213107426B634F8ABB2B8C6534B6D83
+INFO     MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-7213107426B634F8ABB2B8C6534B6D83&#x27;, &#x27;CDwindow-4CBFFCA30E9A18B39CC24A8D9F323FE2&#x27;]
+INFO     MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-4CBFFCA30E9A18B39CC24A8D9F323FE2
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;5ba425304b66b073ceae334ab4fc8520&quot;, element=&quot;4356b72d-026e-44a9-95f1-a94653e0674e&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
+INFO     MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
+INFO     MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Samsung Galaxy-IPhone]</td>
+          <td class="col-duration">12.30</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;2b8929ea-6f7f-4678-901f-a5124ca69883&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;2b8929ea-6f7f-4678-901f-a5124ca69883&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;5faf30b2-bc64-41eb-8580-eca588e9fc9f&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;5faf30b2-bc64-41eb-8580-eca588e9fc9f&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;489a2529-54de-45ac-872a-e9a50884ab36&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;489a2529-54de-45ac-872a-e9a50884ab36&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;c657af55-cf28-40b8-b5ea-3bd63a4f59db&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;c657af55-cf28-40b8-b5ea-3bd63a4f59db&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-6A5E9AADE1C6A7BDC603AA99C33EF0EB
+INFO     MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-6A5E9AADE1C6A7BDC603AA99C33EF0EB&#x27;, &#x27;CDwindow-FF58592389509BB4F07C374F8A9C07F7&#x27;]
+INFO     MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-FF58592389509BB4F07C374F8A9C07F7
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3498e73a464b425bd19dcea45e78e091&quot;, element=&quot;d40ff65d-b5a9-4aba-9b06-03bb15a1e1e5&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
+INFO     MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
+INFO     MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Sony Xperia-Samsung Galaxy]</td>
+          <td class="col-duration">10.40</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;e8ac3c60-6d6e-45d4-b081-854c18dd2615&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;e8ac3c60-6d6e-45d4-b081-854c18dd2615&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;4372d859-de2d-4618-832f-a7210e21c8f2&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;4372d859-de2d-4618-832f-a7210e21c8f2&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;8e75e896-9dc8-43b5-a6dc-a3c70e21796d&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;8e75e896-9dc8-43b5-a6dc-a3c70e21796d&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;5fdbd69d-e91b-46ea-bc3c-c9d1ae268dab&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;5fdbd69d-e91b-46ea-bc3c-c9d1ae268dab&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-1302EC8DDE91EB1286BD2044FAE793C9
+INFO     MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-1302EC8DDE91EB1286BD2044FAE793C9&#x27;, &#x27;CDwindow-4A62B4B4822E7A9C02CA41B7A50525D4&#x27;]
+INFO     MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-4A62B4B4822E7A9C02CA41B7A50525D4
+INFO     MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;b8688eab3042cc0340c15abd0458af9c&quot;, element=&quot;cdd466b4-d14b-4e16-876a-831a1e24caa7&quot;)&gt;
+INFO     MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
+INFO     MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
+INFO     MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody></table></body></html>
