@@ -12,7 +12,7 @@ exampleConvertors = {'firstname': str,
               }
 
 
-@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\registration.feature",'Registration',
+@scenario("..\\features\\registration.feature",'Registration',
           example_converters=exampleConvertors)
 
 def test_registration():

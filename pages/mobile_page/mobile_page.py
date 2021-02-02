@@ -112,33 +112,3 @@ class MobilePage(BasePage):
 
 
 
-
-
-
-
-
-
-    # def verify_price_different_view(self):
-    #     self.click_list_view()
-    #     return self.utill.verify_values(self.sony_price_list_view(),self.sony_price_grid_view())
-    #
-    # def verify_max_cart_error(self):
-    #     self.add_to_cart()
-    #     return self.enter_cart_quantity_and_update()
-    #
-    # def click_compare_(self):
-    #     self.elementClick(self._compare_xperia,'xpath')
-    #     self.elementClick(self._compare_apple,'xpath')
-    #     self.elementClick(self._compare_button,'xpath')
-    #     self.switching_to_window()
-    #     result1 = self.isElementDisplayed(self._iphone_new,'xpath')
-    #     self.elementClick(self._close_window,'xpath')
-    #     return result1
-
-
-
-
-
-
-
-

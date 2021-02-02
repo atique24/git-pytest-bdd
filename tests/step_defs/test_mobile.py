@@ -2,8 +2,8 @@ import pytest
 from pytest_bdd import scenario, given, when, then, parsers, scenarios
 from utilities.mark_test_status import MarkTestStatus
 
-@pytest.mark.skip
-@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\ecommerce.feature", "Check Mobile Phone")
+#@pytest.mark.skip
+@scenario("..\\features\\ecommerce.feature", "Check Mobile Phone")
 def test_one():
     pass
 
@@ -28,7 +28,7 @@ convertors = {'name': str,
 
 
 
-@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\ecommerce.feature",
+@scenario("..\\features\\ecommerce.feature",
           scenario_name="Check Sort By functionality",example_converters= convertors)
 def test_sort_by_functionality():
     pass

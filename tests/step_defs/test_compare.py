@@ -11,7 +11,7 @@ extra_types = {
 }
 
 
-@scenario("C:\\Users\\A610037\\PycharmProjects\\git-pytest-bdd\\tests\\features\\compare.feature", "Compare Mobile",
+@scenario("..\\features\\compare.feature", "Compare Mobile",
           example_converters=example_convertors)
 def test_compare_functionality():
     pass

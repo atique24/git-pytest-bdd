@@ -17,4 +17,4 @@ Feature: ecommerce website
 
     Examples: Registration
       | firstname | lastname | email             | password| confirm | success                                           |
-      | Test      | twentyfive |test@twentyfive.com|test12345|test12345| Thank you for registering with Main Website Store.|
+      | Testt     |  three   |testt@three.com    |test12345|test12345| Thank you for registering with Main Website Store.|

@@ -33,19 +33,6 @@ class Account(SeleniumDriver):
     _message_success_sharelist = "//span[text()='Your Wishlist has been shared.']"
 
 
-    # def click_tv_tab(self):
-    #     self.elementClick(self._tv,'link')
-    #
-    # def add_to_wishlist(self):
-    #     self.click_tv_tab()
-    #     self.elementClick(self._add_to_wishlist,'xpath')
-    #     self.elementClick(self._share_wishlist,'xpath')
-    #     self.elementSend(self._emailaddress_wishlist,'id','test@two.com')
-    #     self.elementSend(self._message_wishlist, 'id', 'Hello Could you please buy for me')
-    #     self.elementClick(self._share_wishlist,'xpath')
-    #     return self.isElementDisplayed(self._message_success_sharelist,'xpath')
-
-
 
     def click_account(self):
         self.elementClick(self._account, 'xpath')
