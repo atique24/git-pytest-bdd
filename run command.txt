@@ -24,3 +24,8 @@ py.test -s -v --browser Chrome --html=testsuite.html --reruns 5
 
 check the url
 https://pydigger.com/pypi/pytest-rerunfailures
+
+
+
+to suppress pytest warnings
+ --disable-pytest-warnings
