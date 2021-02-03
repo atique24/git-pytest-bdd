@@ -29,3 +29,7 @@ https://pydigger.com/pypi/pytest-rerunfailures
 
 to suppress pytest warnings
  --disable-pytest-warnings
+
+
+to print the gherkin feature details in console
+pytest -s -vvvv --browser Chrome --gherkin-terminal-reporter

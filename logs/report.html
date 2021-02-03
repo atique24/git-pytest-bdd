@@ -243,7 +243,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 02-Feb-2021 at 14:24:19 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 03-Feb-2021 at 16:49:13 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,7 +259,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.8.2</td></tr></table>
     <h2>Summary</h2>
-    <p>8 tests ran in 96.77 seconds. </p>
+    <p>8 tests ran in 90.76 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">7 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -275,60 +275,59 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">tests/step_defs/test_registration.py::test_registration[Testt-three-testt@three.com-test12345-test12345-Thank you for registering with Main Website Store.]</td>
-          <td class="col-duration">18.59</td>
+          <td class="col-duration">18.19</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">request = &lt;FixtureRequest for &lt;Function test_registration[Testt-three-testt@three.com-test12345-test12345-Thank you for registering with Main Website Store.]&gt;&gt;<br/><br/>    @pytest.mark.usefixtures(*function_args)<br/>    def scenario_wrapper(request):<br/>&gt;       _execute_scenario(feature, scenario, request, encoding)<br/><br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:177: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:143: in _execute_scenario<br/>    _execute_step_function(request, scenario, step, step_func)<br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:113: in _execute_step_function<br/>    return_value = step_func(**kwargs)<br/>tests\step_defs\test_registration.py:50: in successful_registration<br/>    mts.finalMark(testcase=&#x27;Account Registration&#x27;, result=result,<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.mark_test_status.MarkTestStatus object at 0x0512B520&gt;, testcase = &#x27;Account Registration&#x27;, result = False, resultMessage = &#x27;Registration successful&#x27;<br/><br/>    def finalMark(self,testcase,result,resultMessage):<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;Fail&quot; in self.resultlist:<br/>            self.cl.info(testcase + &quot;### Test Failed&quot;)<br/>            self.resultlist.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>utilities\mark_test_status.py:46: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a/span[text()=&#x27;Account&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;8ef1fb62-53b3-4d44-9e2a-86be5542be9d&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;8ef1fb62-53b3-4d44-9e2a-86be5542be9d&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : link &amp; locator : Register&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;84f68354-e1f8-48c6-8cb7-833d30396783&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;84f68354-e1f8-48c6-8cb7-833d30396783&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a/span[text()=&#x27;Account&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;be8cda01-e334-4b0b-919f-4d996fcff688&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;be8cda01-e334-4b0b-919f-4d996fcff688&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : link &amp; locator : Register&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;5e136d9d-4f5c-485d-81ed-5bd60bb51910&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;5e136d9d-4f5c-485d-81ed-5bd60bb51910&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : firstname&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;bdad9978-c700-49c2-bd1a-5032d4c3747d&quot;)&gt;
+            <div class="log">request = &lt;FixtureRequest for &lt;Function test_registration[Testt-three-testt@three.com-test12345-test12345-Thank you for registering with Main Website Store.]&gt;&gt;<br/><br/>    @pytest.mark.usefixtures(*function_args)<br/>    def scenario_wrapper(request):<br/>&gt;       _execute_scenario(feature, scenario, request, encoding)<br/><br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:177: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:143: in _execute_scenario<br/>    _execute_step_function(request, scenario, step, step_func)<br/>..\..\appdata\local\programs\python\python38-32\lib\site-packages\pytest_bdd\scenario.py:113: in _execute_step_function<br/>    return_value = step_func(**kwargs)<br/>tests\step_defs\test_registration.py:50: in successful_registration<br/>    mts.finalMark(testcase=&#x27;Account Registration&#x27;, result=result,<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;utilities.mark_test_status.MarkTestStatus object at 0x054AA088&gt;, testcase = &#x27;Account Registration&#x27;, result = False, resultMessage = &#x27;Registration successful&#x27;<br/><br/>    def finalMark(self,testcase,result,resultMessage):<br/>        self.setResult(result, resultMessage)<br/>    <br/>        if &quot;Fail&quot; in self.resultlist:<br/>            self.cl.info(testcase + &quot;### Test Failed&quot;)<br/>            self.resultlist.clear()<br/>&gt;           assert True == False<br/><span class="error">E           AssertionError</span><br/><br/>utilities\mark_test_status.py:46: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a/span[text()=&#x27;Account&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;90b6c358-a389-4b9e-ae4b-7ba7e7f9518f&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;90b6c358-a389-4b9e-ae4b-7ba7e7f9518f&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : link &amp; locator : Register&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;f106b6f7-27d1-43aa-af42-f9fc1f0a0c43&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;f106b6f7-27d1-43aa-af42-f9fc1f0a0c43&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a/span[text()=&#x27;Account&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;970a3b75-69eb-4d36-8dd0-592c2e2f7679&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;970a3b75-69eb-4d36-8dd0-592c2e2f7679&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : link &amp; locator : Register&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;933adca3-d38f-4be6-8734-359a8109f26c&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;933adca3-d38f-4be6-8734-359a8109f26c&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : firstname&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;29cf0dc8-db2a-4e12-b3e6-caffec21411d&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:115 Text : Testt entered on locator: firstname
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : lastname&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;426e971b-731a-4fd1-bcb2-6aef95c652d3&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : lastname&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;0f6d9720-9765-44dc-8a73-a02dbf536ae5&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:115 Text : three entered on locator: lastname
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : email_address&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;303810ab-4021-4ba1-9d7f-fd75ae5a606f&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : email_address&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;bf98e405-ab8e-4e11-92dc-1f1509d07bc1&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:115 Text : testt@three.com entered on locator: email_address
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : password&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;0cf4732c-e739-4d23-ae7e-4ce2cdf84c56&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : password&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;d5af94ce-02e3-451e-bdaa-77383625283b&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:115 Text : test12345 entered on locator: password
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : confirmation&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;3ac969f0-3ed4-4a99-9ca0-96c5f17bf75c&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : confirmation&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;782c8f3c-f6b1-4615-bb99-8fdc9f8fe5e4&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:115 Text : test12345 entered on locator: confirmation
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : is_subscribed&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;d3b78040-05d5-487c-b2bb-ca671995bbf1&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;d3b78040-05d5-487c-b2bb-ca671995bbf1&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //button[@title=&#x27;Register&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;036949d0-615f-40bd-bfed-175eb83a9634&quot;)&gt;
-[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54236c415f03ad9d977fd14f2dff64b9&quot;, element=&quot;036949d0-615f-40bd-bfed-175eb83a9634&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : id &amp; locator : is_subscribed&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;ef4544d8-a4be-4118-829c-775e270fe5ea&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;ef4544d8-a4be-4118-829c-775e270fe5ea&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //button[@title=&#x27;Register&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;f451f37a-1418-48bb-a003-98d9d15e114a&quot;)&gt;
+[32mINFO    [0m Account:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;3e422d7b66bce538ab2f43c2f4481887&quot;, element=&quot;f451f37a-1418-48bb-a003-98d9d15e114a&quot;)&gt;
 [32mINFO    [0m Account:selenium_driver.py:58 Element could not be found with type : xpath and locator : //span[text()=&#x27;Thank you for registering with Main Website Store.&#x27;]Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&#x27;Thank you for registering with Main Website Store.&#x27;]&quot;}
-  (Session info: chrome=88.0.4324.104)
+  (Session info: chrome=88.0.4324.146)
 
 [33mWARNING [0m Account:selenium_driver.py:291 Exception occured while executing isElementDisplayed :: exception occured :: &#x27;NoneType&#x27; object has no attribute &#x27;is_displayed&#x27;
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:23 ###Verification Failed :: + Registration successful
-[32mINFO    [0m MarkTestStatus:selenium_driver.py:273 ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//screenshots//Registration successful16122758569685.png
+[32mINFO    [0m MarkTestStatus:selenium_driver.py:273 ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//screenshots//Registration successful16123709511195.png
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:44 Account Registration### Test Failed<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Sony Xperia-IPhone]</td>
-          <td class="col-duration">10.93</td>
+          <td class="col-duration">10.17</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;c456fcce-3646-4c49-89a5-084e4e5e3e09&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;c456fcce-3646-4c49-89a5-084e4e5e3e09&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;1c13037c-d693-40d8-8aa9-df064dfc7c19&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;1c13037c-d693-40d8-8aa9-df064dfc7c19&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;56b91971-fbeb-4867-b256-e6a571e8e556&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;56b91971-fbeb-4867-b256-e6a571e8e556&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;9808162b-b728-4956-ae26-322b689717ef&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;9808162b-b728-4956-ae26-322b689717ef&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-E2A22F13311121070CE415EE27E011B1
-[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-E2A22F13311121070CE415EE27E011B1&#x27;, &#x27;CDwindow-F7A69318F2F02CFAC9C30E7F097933DE&#x27;, &#x27;CDwindow-C3AE981468AA4E3FA0BF2C63C4F17401&#x27;]
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-F7A69318F2F02CFAC9C30E7F097933DE
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-C3AE981468AA4E3FA0BF2C63C4F17401
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;6f96f0a9439b20b8d85ffce159c2d4d5&quot;, element=&quot;581886d1-d79f-4461-984b-fd1377d052c3&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;e4ba0818-5724-4985-8ff1-29e880426f70&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;e4ba0818-5724-4985-8ff1-29e880426f70&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;aec1230e-e7d9-48bb-8f1e-9e6843b38a00&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;aec1230e-e7d9-48bb-8f1e-9e6843b38a00&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;54c4b7a5-be60-4c33-891f-ff07dce8125d&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;54c4b7a5-be60-4c33-891f-ff07dce8125d&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;226bb256-9845-48ff-97f0-321c54a0fe54&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;226bb256-9845-48ff-97f0-321c54a0fe54&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-A4604DF086B58E436D33150ABF9B1875
+[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-A4604DF086B58E436D33150ABF9B1875&#x27;, &#x27;CDwindow-1664D0AF66FFC7795E94493CFD7B8A97&#x27;]
+[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-1664D0AF66FFC7795E94493CFD7B8A97
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;ba993a7f96fe1f27f82ad71f8695ca68&quot;, element=&quot;43ec67cf-6811-47e4-830e-f9748e883341&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody>
@@ -336,23 +335,22 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Samsung Galaxy-IPhone]</td>
-          <td class="col-duration">10.25</td>
+          <td class="col-duration">9.56</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;887caabb-157d-43a7-b202-492e95d8527d&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;887caabb-157d-43a7-b202-492e95d8527d&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;9723c5cc-5f13-45c7-8799-3aa7cb01cdc7&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;9723c5cc-5f13-45c7-8799-3aa7cb01cdc7&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;3b3f4252-7ebd-4f45-9378-06f84d03aa1d&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;3b3f4252-7ebd-4f45-9378-06f84d03aa1d&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;016a5978-102b-42ac-8c10-ee7879d2e597&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;016a5978-102b-42ac-8c10-ee7879d2e597&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-F656896B0A5A197C91D58C100B7D7081
-[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-F656896B0A5A197C91D58C100B7D7081&#x27;, &#x27;CDwindow-1A2DD50A86FE45127741C280F5433EBA&#x27;, &#x27;CDwindow-8B7A8A941E80DDB17955EC67D815D81A&#x27;]
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-1A2DD50A86FE45127741C280F5433EBA
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-8B7A8A941E80DDB17955EC67D815D81A
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0f588a5a1bdf8dd7a85f3140a5c73a74&quot;, element=&quot;56e96d45-64f4-4c77-a087-ba416bdada35&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;dedeec31-f876-447d-ad7c-fd1db28f4beb&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;dedeec31-f876-447d-ad7c-fd1db28f4beb&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;52d68095-a6d0-4c95-b55e-0d3f02931245&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;52d68095-a6d0-4c95-b55e-0d3f02931245&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;IPhone&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;a8d53b8c-ccfd-4564-acdc-7e6369b1acb6&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;a8d53b8c-ccfd-4564-acdc-7e6369b1acb6&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;00f2a0b7-1f82-490d-a438-37d1385837ac&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;00f2a0b7-1f82-490d-a438-37d1385837ac&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-A9D3C239B24C30332C7415C65222C4B4
+[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-A9D3C239B24C30332C7415C65222C4B4&#x27;, &#x27;CDwindow-F22906E49DE439BBACB83DC5D9579A82&#x27;]
+[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-F22906E49DE439BBACB83DC5D9579A82
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;f5a955b90592908ca9cf9a376d1ae183&quot;, element=&quot;0a1cf66e-62d5-4da2-b9ef-ef111bfecefb&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody>
@@ -360,23 +358,22 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_compare.py::test_compare_functionality[Sony Xperia-Samsung Galaxy]</td>
-          <td class="col-duration">10.48</td>
+          <td class="col-duration">9.19</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;4e15d47a-0c8d-484f-85a9-520ca29caeb6&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;4e15d47a-0c8d-484f-85a9-520ca29caeb6&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;a1a8ca8f-a603-4274-b633-383b9bf85852&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;a1a8ca8f-a603-4274-b633-383b9bf85852&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;f3e85ec8-9877-4c5d-b588-d96eb065761c&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;f3e85ec8-9877-4c5d-b588-d96eb065761c&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;a94f8a6a-30d4-49f0-95df-b67df98ed794&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;a94f8a6a-30d4-49f0-95df-b67df98ed794&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-48481FB6429B9F9440FE6E921BF9F88F
-[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-48481FB6429B9F9440FE6E921BF9F88F&#x27;, &#x27;CDwindow-13FDF2F876CE7D9F7248F4E0D660867C&#x27;, &#x27;CDwindow-C9C598A53A4127F59C940D894D8A4484&#x27;]
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-13FDF2F876CE7D9F7248F4E0D660867C
-[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-C9C598A53A4127F59C940D894D8A4484
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;8a4a1f958a681cd1ff37fc0f46e87597&quot;, element=&quot;2d80f30f-f82a-4a36-a286-ee8c8d68e5df&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;910d6cfa-f95d-465b-8e9f-7d33198088ee&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;910d6cfa-f95d-465b-8e9f-7d33198088ee&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Sony Xperia&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;e4ccd085-c8ba-41e0-9638-292cd0b43535&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;e4ccd085-c8ba-41e0-9638-292cd0b43535&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //a[text()=&#x27;Samsung Galaxy&#x27;]/parent::h2/parent::div/child::div/child::ul/li/a[text()=&#x27;Add to Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;6d2f5880-74fb-492b-882b-e1dcfe105e9d&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;6d2f5880-74fb-492b-882b-e1dcfe105e9d&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //span[text()=&#x27;Compare&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;d704048d-f698-4d3b-9f5e-b09acc96fed0&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;d704048d-f698-4d3b-9f5e-b09acc96fed0&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:383 The current window handle is :: CDwindow-950685088FA137989B566BE5BDF55302
+[32mINFO    [0m MobilePage:selenium_driver.py:388 All available Window&#x27;s are :: [&#x27;CDwindow-950685088FA137989B566BE5BDF55302&#x27;, &#x27;CDwindow-037E18587796BE39012D5CBBAC55DE75&#x27;]
+[32mINFO    [0m MobilePage:selenium_driver.py:399 Switched to window :: CDwindow-037E18587796BE39012D5CBBAC55DE75
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //h1[text()=&#x27;Compare Products&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;1c79fa531e07894e9fb9fc3ed1fc007c&quot;, element=&quot;5ec9733a-51c4-48b4-81fd-ccc54669b256&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:284 Element is displayed with locator :: //h1[text()=&#x27;Compare Products&#x27;]
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:20 ###Verification Successfull :: + Product compare successfully
 [32mINFO    [0m MarkTestStatus:mark_test_status.py:49 compare functionality### Test Passed<br/></div></td></tr></tbody>
@@ -384,12 +381,12 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_mobile.py::test_one</td>
-          <td class="col-duration">6.21</td>
+          <td class="col-duration">5.87</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;939f0527cf16a728cced2055c95d046d&quot;, element=&quot;7fbff446-4825-4d21-acdd-12e9b84998ce&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;939f0527cf16a728cced2055c95d046d&quot;, element=&quot;7fbff446-4825-4d21-acdd-12e9b84998ce&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;4b60ee75e22125481a6cd2116ecfae66&quot;, element=&quot;f248d161-febc-4b77-9749-0e0fa7057b91&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;4b60ee75e22125481a6cd2116ecfae66&quot;, element=&quot;f248d161-febc-4b77-9749-0e0fa7057b91&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:70 Element found with locatorType : xpath&amp; locator : //div[@class=&#x27;category-products&#x27;]/ul/li/a
 [32mINFO    [0m MobilePage:selenium_driver.py:176 Value of Attribute :: title is Xperia
 [32mINFO    [0m MobilePage:selenium_driver.py:176 Value of Attribute :: title is IPhone
@@ -402,13 +399,13 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_mobile.py::test_sort_by_functionality[Name-[IPHONE, SAMSUNG GALAXY, SONY XPERIA]]</td>
-          <td class="col-duration">7.07</td>
+          <td class="col-duration">6.86</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;c57e10289876c0b8b1218fca677dcc32&quot;, element=&quot;3f6be350-b173-422f-ab58-dc15b2829589&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;c57e10289876c0b8b1218fca677dcc32&quot;, element=&quot;3f6be350-b173-422f-ab58-dc15b2829589&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;c57e10289876c0b8b1218fca677dcc32&quot;, element=&quot;ce6fae46-45c3-4c42-a666-9f0802640324&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54339e808669324763497341f934ddb5&quot;, element=&quot;599ec157-0eba-4641-bb23-1849dfaa3840&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54339e808669324763497341f934ddb5&quot;, element=&quot;599ec157-0eba-4641-bb23-1849dfaa3840&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;54339e808669324763497341f934ddb5&quot;, element=&quot;02c0fd7c-99e9-44fe-826a-4676d652a78d&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:90 Selected element with value Name from the drop down using Visible Text
 [32mINFO    [0m MobilePage:selenium_driver.py:70 Element found with locatorType : xpath&amp; locator : //li[@class=&#x27;item last&#x27;]//child::div/h2/a
 [32mINFO    [0m MobilePage:selenium_driver.py:146 [&#x27;IPHONE&#x27;, &#x27;SAMSUNG GALAXY&#x27;, &#x27;SONY XPERIA&#x27;]
@@ -420,13 +417,13 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_mobile.py::test_sort_by_functionality[Price-[SONY XPERIA, SAMSUNG GALAXY, IPHONE]]</td>
-          <td class="col-duration">8.64</td>
+          <td class="col-duration">6.57</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;e609f66416c79ef6887b7026c31ee1b1&quot;, element=&quot;0c7e3261-77f3-44d7-982b-f1b81336f7f8&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;e609f66416c79ef6887b7026c31ee1b1&quot;, element=&quot;0c7e3261-77f3-44d7-982b-f1b81336f7f8&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;e609f66416c79ef6887b7026c31ee1b1&quot;, element=&quot;35400fb4-d645-423c-ba74-668a8fb77354&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0ce701061854a7a1271aba8eddb5f684&quot;, element=&quot;196e15ea-7282-4862-97ae-9a6ca8f9fe64&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0ce701061854a7a1271aba8eddb5f684&quot;, element=&quot;196e15ea-7282-4862-97ae-9a6ca8f9fe64&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;0ce701061854a7a1271aba8eddb5f684&quot;, element=&quot;51d8cc84-3d8e-416a-b6db-327eb263b717&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:90 Selected element with value Price from the drop down using Visible Text
 [32mINFO    [0m MobilePage:selenium_driver.py:70 Element found with locatorType : xpath&amp; locator : //li[@class=&#x27;item last&#x27;]//child::div/h2/a
 [32mINFO    [0m MobilePage:selenium_driver.py:146 [&#x27;SONY XPERIA&#x27;, &#x27;SAMSUNG GALAXY&#x27;, &#x27;IPHONE&#x27;]
@@ -438,13 +435,13 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">tests/step_defs/test_mobile.py::test_sort_by_functionality[Position-[SONY XPERIA, IPHONE, SAMSUNG GALAXY]]</td>
-          <td class="col-duration">6.64</td>
+          <td class="col-duration">6.50</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;be8848fb93741113fe1adb055791c206&quot;, element=&quot;8203019b-c1c9-4854-bdd9-8e09ac89ee23&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;be8848fb93741113fe1adb055791c206&quot;, element=&quot;8203019b-c1c9-4854-bdd9-8e09ac89ee23&quot;)&gt;
-[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;be8848fb93741113fe1adb055791c206&quot;, element=&quot;f4c9ca50-3165-4116-ba46-fac40fcc1549&quot;)&gt;
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : link &amp; locator : MOBILE&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;45808f647ecd130f469eef16aecb540f&quot;, element=&quot;b43efac5-07a0-41f6-a5dd-854b8949f9a2&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:104 Clicked on Element : &lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;45808f647ecd130f469eef16aecb540f&quot;, element=&quot;b43efac5-07a0-41f6-a5dd-854b8949f9a2&quot;)&gt;
+[32mINFO    [0m MobilePage:selenium_driver.py:54 Element found with locatorType : xpath &amp; locator : //select[@title=&#x27;Sort By&#x27;]&lt;selenium.webdriver.remote.webelement.WebElement (session=&quot;45808f647ecd130f469eef16aecb540f&quot;, element=&quot;dc12cd75-6121-41ab-846d-b0fe0e1f4f87&quot;)&gt;
 [32mINFO    [0m MobilePage:selenium_driver.py:90 Selected element with value Position from the drop down using Visible Text
 [32mINFO    [0m MobilePage:selenium_driver.py:70 Element found with locatorType : xpath&amp; locator : //li[@class=&#x27;item last&#x27;]//child::div/h2/a
 [32mINFO    [0m MobilePage:selenium_driver.py:146 [&#x27;SONY XPERIA&#x27;, &#x27;IPHONE&#x27;, &#x27;SAMSUNG GALAXY&#x27;]
