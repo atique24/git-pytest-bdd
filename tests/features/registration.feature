@@ -1,4 +1,3 @@
-
 @registration
 Feature: ecommerce website
   As a buyer,
@@ -16,5 +15,5 @@ Feature: ecommerce website
     Then I see the "<success>" message
 
     Examples: Registration
-      | firstname | lastname | email             | password| confirm | success                                           |
-      | Testt     |  three   |testt@three.com    |test12345|test12345| Thank you for registering with Main Website Store.|
+      | firstname | lastname | email           | password  | confirm   | success                                            |
+      | Testtttt    | five     | testtttt@five.com | test12345 | test12345 | Thank you for registering with Main Website Store. |
