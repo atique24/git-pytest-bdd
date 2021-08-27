@@ -1,5 +1,5 @@
-bb_url = "https://test_9ALXi0:2d1ZShaTYo9bUN66doVJ@hub-cloud.browserstack.com/wd/hub"
-key = '2d1ZShaTYo9bUN66doVJ'
+bb_url = " Your Browser Stack URL "
+key = 'Your Browserstack Key'
 localIdentifier = 'local'
 browser_config = {
       'os_version': '10',
