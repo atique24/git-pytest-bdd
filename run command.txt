@@ -14,13 +14,18 @@ pytest -s -v --browser Chrome -m "tagname"
 
 py.test -s -v --browser Chrome --html=testsuite.html --reruns 5
 
-
--s -v for printing the statement
+--browser #To Select the Browser. By Default Browser Set to Chrome. Supported Browser Firefox, Chrome, Edge and Browserstack
+--URL #Application URL under test
+--screenshot #Enable of disable screenshot. By default set to off. Screenshot on failure is on. Screenshots, Logs an allure reports log can be found in log folder.
+--headless # To Run Test in headless mode
+-s -v #To print statements in console
 --html = file.html
 --reruns = number of retries
 --last-failed = to run the last failed test from the .pycache
 --reruns-delay 1 = to rerun the failed tests with some delay
 
+
+allure serve logs\reports\allure\ # to Generate Allure report. Allure bat needs to be downloaded and installed in the system variables.
 
 check the url
 https://pydigger.com/pypi/pytest-rerunfailures
@@ -32,4 +37,4 @@ to suppress pytest warnings
 
 
 to print the gherkin feature details in console
-pytest -s -vvvv --browser Chrome --gherkin-terminal-reporter
+pytest -s -v --browser Chrome --gherkin-terminal-reporter
