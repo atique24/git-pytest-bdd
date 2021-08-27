@@ -1,10 +1,10 @@
 from utilities.customlogger import custom_logger
 import logging
-from base.selenium_driver import SeleniumDriver
+from base.SeleniumBase import SeleniumBase
 
 
 
-class MarkTestStatus(SeleniumDriver):
+class MarkTestStatus(SeleniumBase):
     cl = custom_logger(logging.INFO)
     def __init__(self,driver):
         super(MarkTestStatus, self).__init__(driver)
