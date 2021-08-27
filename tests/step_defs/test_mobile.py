@@ -13,10 +13,9 @@ def test_one():
 
 @pytest.mark.usefixtures("click_mobile_tab")
 @then("all available mobiles are displayed")
-def mobile_phone_displayed(mobile, mts):
-    result = mobile.available_mobiles(expected_list=['Xperia', 'IPhone', 'Samsung Galaxy'])
-    mts.finalMark(testcase='Verify all mobiles are available', result=result,
-                  resultMessage='Verified all mobiles are available')
+def mobile_phone_displayed(mobile):
+    assert mobile.available_mobiles() == ['Samsung Galaxy', 'Xperia', 'IPhone']
+
 
 
 extraTypes = {'value': str,
@@ -42,7 +41,7 @@ def when_click_sort_by_name(mobile,Name):
 
 @then(parsers.cfparse("all the available mobiles are sorted by {result:value2}",extra_types=extraTypes))
 @then('all the available mobiles are sorted by "<result>"')
-def then_mobile_are_sorted(mobile,result,mts):
-    result = mobile.verify_sort_functionality(result)
-    mts.finalMark(testcase='Sort By',result=result,resultMessage='Sort By Functionality Tested')
+def then_mobile_are_sorted(mobile,result):
+    assert mobile.verify_sort_functionality(result) == True
+
 

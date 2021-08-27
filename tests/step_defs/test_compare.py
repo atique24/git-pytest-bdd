@@ -41,7 +41,7 @@ def when_step3(mobile):
 
 
 @then("compare products page is displayed.")
-def then_step1(mobile, mts):
-    result = mobile.confirm_compare_window()
-    mts.finalMark(testcase="compare functionality", result=result, resultMessage="Product compare successfully")
+def then_step1(mobile):
+    assert mobile.confirm_compare_window() == True
+
 
