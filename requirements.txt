@@ -1,6 +1,10 @@
-pytest-bdd
-pytest
-pytest-html
-selenium
-pytest-ordering
-pytest-rerunfailures
+allure-pytest-bdd==2.9.43
+assertpy==1.1
+msedge-selenium-tools==3.141.3
+pytest-bdd==4.0.2
+pytest-rerunfailures==9.1.1
+pytest-xdist==2.2.1
+Python-BrowserStack==1.2
+selenium==3.141.0
+webdriver-manager==3.4.2
+image==1.5.33
