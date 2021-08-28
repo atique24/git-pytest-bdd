@@ -1,8 +1,16 @@
+import logging
+import os
+
+import allure
 import pytest
 from selenium import webdriver
 from pytest_bdd import given
+
+from base.SeleniumBase import SeleniumBase
+from base.WebDriverFactory import WebDriverFactory
 from pages.mobile_page.mobile_page import MobilePage
 from pages.account_creation.account_creation import Account
+from utilities.customlogger import custom_logger
 from utilities.mark_test_status import MarkTestStatus
 from pytest_bdd import given,when,then,parsers,scenarios,scenario
 
@@ -14,8 +22,15 @@ def pytest_bdd_step_error(request,feature,scenario,step,step_func,step_func_args
     print(f"step failed ::  {step}")
 
 
+
+cl = custom_logger(logging.INFO)
+
+
 def pytest_addoption(parser):
-    parser.addoption("--browser")
+    parser.addoption("--browser", action="store", default="Chrome", help="Type in browser type")
+    parser.addoption("--screenshot", action="store_true", default=False, help="To enable/disable screenshots")
+    parser.addoption("--headless", action="store_true", default=False, help="Browser Headless mode")
+    parser.addoption("--url", action="store", default=None, help="URL of the Application under test")
 
 
 @pytest.fixture(scope="session")
@@ -23,26 +38,38 @@ def browser(request):
     return request.config.getoption("--browser")
 
 
-@pytest.fixture()
-def setup(request,browser):
+@pytest.fixture(scope="session")
+def screenshot(request):
+    return request.config.getoption("--screenshot")
+
+
+@pytest.fixture(scope="session")
+def headless(request):
+    return request.config.getoption("--headless")
+
+
+@pytest.fixture(scope="session")
+def url(request):
+    return request.config.getoption("--url")
+
+
+
+# ---------------------for new session for each Test class
+@pytest.fixture(scope="class")
+def oneTimeSetup(request, browser, screenshot, headless):
+    wdf = WebDriverFactory(browser, headless)
+    SeleniumBase.EnableScreenshotForTest(screenshot)  # ------ Enable / Disable screenshot
+
+
     global driver
-    if browser == 'Chrome':
-        driver = webdriver.Chrome("..\\drivers\\chromedriver.exe")
+    driver = wdf.get_browser_instance()
 
-    elif browser == 'ff':
-        driver = webdriver.Firefox("..\\drivers\\geckodriver.exe")
-
-    else:
-        driver = webdriver.Chrome("..\\drivers\\chromedriver.exe")
-
-    driver.maximize_window()
-    driver.implicitly_wait(10)
-
-    # if request.cls is not None:
-    #     request.cls.driver = driver
-
+    #if request.cls is not None:
+    #request.cls.driver = driver
     yield driver
     driver.quit()
+    cl.info("Quiting the browser session")
+
 
 #-------------logic to capture screenshot in the pytest html
 # @pytest.mark.hookwrapper
@@ -72,24 +99,20 @@ def setup(request,browser):
 
 
 @given("I am in the ecommerce website")
-def browser_initialization(setup):
-    setup.get("http://live.demoguru99.com/index.php/")
+def browser_initialization(oneTimeSetup,url):
+    oneTimeSetup.get(url)
 
 
 # -----POM Class initialization add below
 @pytest.fixture()
-def mobile(setup):
-    return MobilePage(setup)
+def mobile(oneTimeSetup):
+    return MobilePage(oneTimeSetup)
 
 
 @pytest.fixture()
-def account(setup):
-    return Account(setup)
+def account(oneTimeSetup):
+    return Account(oneTimeSetup)
 
-
-@pytest.fixture()
-def mts(setup):
-    return MarkTestStatus(setup)
 
 
 # --------------common steps add below
@@ -97,5 +120,17 @@ def mts(setup):
 @when("I click on Mobile Tab")
 def click_mobile_tab(mobile):
     mobile.mobile_tab()
+
+
+# -------------attach screenshot to allure report
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
+def pytest_bdd_step_error(request, feature, scenario, step, step_func, step_func_args, exception):
+        allure.attach(
+            driver.get_screenshot_as_png(),
+            name='screenshot',
+            attachment_type=allure.attachment_type.PNG
+            )
+        sel = SeleniumBase(driver)
+        sel.saveScreenshots()
 
 
