@@ -31,10 +31,5 @@ check the url
 https://pydigger.com/pypi/pytest-rerunfailures
 
 
+To Run the Test :  pytest -m "compare" --url http://live.demoguru99.com/index.php/
 
-to suppress pytest warnings
- --disable-pytest-warnings
-
-
-to print the gherkin feature details in console
-pytest -s -v --browser Chrome --gherkin-terminal-reporter
