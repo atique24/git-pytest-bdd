@@ -15,9 +15,9 @@ Feature: ecommerce website
       | Name     | result                                 |
       | Name     | [IPHONE, SAMSUNG GALAXY, SONY XPERIA]  |
       | Price    | [SONY XPERIA, SAMSUNG GALAXY, IPHONE]  |
-      | Position | [SONY XPERIA, IPHONE, SAMSUNG GALAXY]  |
 
 
+  @ecommerce
   Scenario: Check Mobile Phone
     Given I am in the ecommerce website
     When I click on Mobile Tab
