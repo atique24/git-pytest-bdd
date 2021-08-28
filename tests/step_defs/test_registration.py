@@ -45,7 +45,6 @@ def click_register_button(account):
 
 @then(parsers.cfparse('I see the "{success:value}" message', extra_types=extraTypes))
 @then('I see the "<success>" message')
-def successful_registration(account, mts, success):
-    result = account.success_message(success)
-    mts.finalMark(testcase='Account Registration', result=result,
-                  resultMessage='Registration successful')
+def successful_registration(account, success):
+    assert account.success_message(success)
+
