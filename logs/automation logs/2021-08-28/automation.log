@@ -1,0 +1,917 @@
+28:08:21 00:01:28: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:01:30: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:01:30: MobilePage: INFO: Element :: d27c71e4-9f88-4510-8a09-4c982014115c found for locator :: ('link text', 'MOBILE'). Session_id :: 0c02d19fbf4d49664cd924ffe9807f93
+28:08:21 00:01:30: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-30-257964.png
+28:08:21 00:01:31: MobilePage: INFO: Clicked on Element : d27c71e4-9f88-4510-8a09-4c982014115c
+28:08:21 00:01:31: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:31: MobilePage: INFO: Element :: c1b086b1-3acf-4230-b642-d7a736654258 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 0c02d19fbf4d49664cd924ffe9807f93
+28:08:21 00:01:32: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-31-618085.png
+28:08:21 00:01:32: MobilePage: INFO: Clicked on Element : c1b086b1-3acf-4230-b642-d7a736654258
+28:08:21 00:01:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:38: MobilePage: ERROR: No Element found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Exception Occurred :: TimeoutException
+28:08:21 00:01:38: MobilePage: ERROR: Unable to click on locator. No element was found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:38: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:01:38: MobilePage: INFO: Element :: c30fd0cd-9e02-4f1b-ac7b-6390f69c1195 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 0c02d19fbf4d49664cd924ffe9807f93
+28:08:21 00:01:38: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-38-324921.png
+28:08:21 00:01:38: MobilePage: INFO: Clicked on Element : c30fd0cd-9e02-4f1b-ac7b-6390f69c1195
+28:08:21 00:01:38: MobilePage: INFO: All available Window's are :: ['CDwindow-3579867874D7CE0D4887864B34373143', 'CDwindow-E3C86A71A91D987BC0B7259BA15CBF3D']
+28:08:21 00:01:38: MobilePage: INFO: Switched to new window :: CDwindow-E3C86A71A91D987BC0B7259BA15CBF3D
+28:08:21 00:01:38: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:01:39: MobilePage: INFO: Element :: ac75f7eb-a509-411a-9b8f-b1b0b6558a72 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 0c02d19fbf4d49664cd924ffe9807f93
+28:08:21 00:01:40: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-39-850638.png
+28:08:21 00:01:40: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:01:42: <module>: INFO: Quiting the browser session
+28:08:21 00:01:44: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:01:46: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:01:46: MobilePage: INFO: Element :: b9739b26-8038-43be-82b6-38b52a567cc2 found for locator :: ('link text', 'MOBILE'). Session_id :: 31b7cfee76502a3733dca24d319e14cf
+28:08:21 00:01:46: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 00-01-46-397637.png
+28:08:21 00:01:47: MobilePage: INFO: Clicked on Element : b9739b26-8038-43be-82b6-38b52a567cc2
+28:08:21 00:01:47: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:47: MobilePage: INFO: Element :: 348bf1ea-9294-4501-a9a4-0eeb1ceb4021 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 31b7cfee76502a3733dca24d319e14cf
+28:08:21 00:01:48: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 00-01-47-820370.png
+28:08:21 00:01:49: MobilePage: INFO: Clicked on Element : 348bf1ea-9294-4501-a9a4-0eeb1ceb4021
+28:08:21 00:01:49: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:49: MobilePage: INFO: Element :: 5a6ac67e-8818-4fd2-8e0f-a3bd01140245 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 31b7cfee76502a3733dca24d319e14cf
+28:08:21 00:01:49: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 00-01-49-184768.png
+28:08:21 00:01:50: MobilePage: INFO: Clicked on Element : 5a6ac67e-8818-4fd2-8e0f-a3bd01140245
+28:08:21 00:01:50: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:01:50: MobilePage: INFO: Element :: 8226e924-ec67-452d-aeb5-a0eeb6200787 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 31b7cfee76502a3733dca24d319e14cf
+28:08:21 00:01:51: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 00-01-50-488057.png
+28:08:21 00:01:51: MobilePage: INFO: Clicked on Element : 8226e924-ec67-452d-aeb5-a0eeb6200787
+28:08:21 00:01:51: MobilePage: INFO: All available Window's are :: ['CDwindow-85EE854C4FB15ABBE381CC149D4E47CD', 'CDwindow-556CEE2E3FFB51CCA51C76E35ACF1337']
+28:08:21 00:01:51: MobilePage: INFO: Switched to new window :: CDwindow-556CEE2E3FFB51CCA51C76E35ACF1337
+28:08:21 00:01:51: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:01:51: MobilePage: INFO: Element :: f08c0e17-0d7e-482b-9f70-d4a1da581dd9 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 31b7cfee76502a3733dca24d319e14cf
+28:08:21 00:01:52: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 00-01-51-986983.png
+28:08:21 00:01:52: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:01:54: <module>: INFO: Quiting the browser session
+28:08:21 00:01:56: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:01:58: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:01:58: MobilePage: INFO: Element :: 74f95ff1-b1f4-4521-a49f-2c8ada11384f found for locator :: ('link text', 'MOBILE'). Session_id :: 98bdbcd46448bca70b77143994be53df
+28:08:21 00:01:58: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-58-218367.png
+28:08:21 00:01:59: MobilePage: INFO: Clicked on Element : 74f95ff1-b1f4-4521-a49f-2c8ada11384f
+28:08:21 00:01:59: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:01:59: MobilePage: INFO: Element :: d4af9ea4-5624-40b4-b0ef-dfc24cc74e61 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 98bdbcd46448bca70b77143994be53df
+28:08:21 00:01:59: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-01-59-316543.png
+28:08:21 00:02:00: MobilePage: INFO: Clicked on Element : d4af9ea4-5624-40b4-b0ef-dfc24cc74e61
+28:08:21 00:02:00: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:02:00: MobilePage: INFO: Element :: 3cbdc0a5-3cad-4737-997a-25074ecce957 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 98bdbcd46448bca70b77143994be53df
+28:08:21 00:02:00: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-02-00-491263.png
+28:08:21 00:02:01: MobilePage: INFO: Clicked on Element : 3cbdc0a5-3cad-4737-997a-25074ecce957
+28:08:21 00:02:01: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:02:01: MobilePage: INFO: Element :: 93484c69-b2e9-4b9e-a48f-ffea505e23dd found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 98bdbcd46448bca70b77143994be53df
+28:08:21 00:02:02: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-02-01-581564.png
+28:08:21 00:02:02: MobilePage: INFO: Clicked on Element : 93484c69-b2e9-4b9e-a48f-ffea505e23dd
+28:08:21 00:02:02: MobilePage: INFO: All available Window's are :: ['CDwindow-5A6C35E9180B9B3D8542940C43850744', 'CDwindow-ABC5E4DF60BE84E4BB07442899B0BAA3']
+28:08:21 00:02:02: MobilePage: INFO: Switched to new window :: CDwindow-ABC5E4DF60BE84E4BB07442899B0BAA3
+28:08:21 00:02:02: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:02:02: MobilePage: INFO: Element :: c7fb1f20-8ed6-4367-946a-811d570aa28b found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 98bdbcd46448bca70b77143994be53df
+28:08:21 00:02:03: MobilePage: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 00-02-02-961281.png
+28:08:21 00:02:03: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:02:05: <module>: INFO: Quiting the browser session
+28:08:21 00:05:14: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:05:16: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:05:16: MobilePage: INFO: Element :: 7952dd80-16cb-4aa5-91c1-ece36e168bd5 found for locator :: ('link text', 'MOBILE'). Session_id :: 1d0937cbe0a6de96535b884bd55f8c47
+28:08:21 00:05:17: MobilePage: INFO: Clicked on Element : 7952dd80-16cb-4aa5-91c1-ece36e168bd5
+28:08:21 00:05:17: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:17: MobilePage: INFO: Element :: 56c9b861-82ef-4d61-a104-dc2d959673c7 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 1d0937cbe0a6de96535b884bd55f8c47
+28:08:21 00:05:18: MobilePage: INFO: Clicked on Element : 56c9b861-82ef-4d61-a104-dc2d959673c7
+28:08:21 00:05:18: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:23: MobilePage: ERROR: No Element found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Exception Occurred :: TimeoutException
+28:08:21 00:05:23: MobilePage: ERROR: Unable to click on locator. No element was found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:23: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:05:23: MobilePage: INFO: Element :: d32a9e93-21fa-481e-95a8-9e01582dd127 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 1d0937cbe0a6de96535b884bd55f8c47
+28:08:21 00:05:23: MobilePage: INFO: Clicked on Element : d32a9e93-21fa-481e-95a8-9e01582dd127
+28:08:21 00:05:23: MobilePage: INFO: All available Window's are :: ['CDwindow-11F6F0AFDC951D857141776DE898813D', 'CDwindow-A754C4D412DB67962B831E9FFC2E08E6']
+28:08:21 00:05:23: MobilePage: INFO: Switched to new window :: CDwindow-A754C4D412DB67962B831E9FFC2E08E6
+28:08:21 00:05:23: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:24: MobilePage: INFO: Element :: b584d4d2-aed0-46a3-a8f4-e3b4f5bcb192 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 1d0937cbe0a6de96535b884bd55f8c47
+28:08:21 00:05:24: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:26: <module>: INFO: Quiting the browser session
+28:08:21 00:05:28: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:05:30: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:05:30: MobilePage: INFO: Element :: 9ebef2cb-7a76-4372-b7b1-30edeedfa5e2 found for locator :: ('link text', 'MOBILE'). Session_id :: ee4b8ff28d18e08b16e0ecf675b6be52
+28:08:21 00:05:31: MobilePage: INFO: Clicked on Element : 9ebef2cb-7a76-4372-b7b1-30edeedfa5e2
+28:08:21 00:05:31: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:31: MobilePage: INFO: Element :: c651895c-009a-48dc-9202-8f447eea4434 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: ee4b8ff28d18e08b16e0ecf675b6be52
+28:08:21 00:05:31: MobilePage: INFO: Clicked on Element : c651895c-009a-48dc-9202-8f447eea4434
+28:08:21 00:05:31: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:31: MobilePage: INFO: Element :: c39dee25-63ef-4a34-98bd-fdb0361133fa found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: ee4b8ff28d18e08b16e0ecf675b6be52
+28:08:21 00:05:32: MobilePage: INFO: Clicked on Element : c39dee25-63ef-4a34-98bd-fdb0361133fa
+28:08:21 00:05:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:05:32: MobilePage: INFO: Element :: 2887927b-2255-4d64-82c5-93f1751c6e70 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: ee4b8ff28d18e08b16e0ecf675b6be52
+28:08:21 00:05:32: MobilePage: INFO: Clicked on Element : 2887927b-2255-4d64-82c5-93f1751c6e70
+28:08:21 00:05:32: MobilePage: INFO: All available Window's are :: ['CDwindow-2A3F5B388C311C51925104C6F852E608', 'CDwindow-CB72820CC0B95786C4A8888DD429509D']
+28:08:21 00:05:32: MobilePage: INFO: Switched to new window :: CDwindow-CB72820CC0B95786C4A8888DD429509D
+28:08:21 00:05:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:33: MobilePage: INFO: Element :: c3a49037-11ed-4c9b-a81d-bd51d9d8e944 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: ee4b8ff28d18e08b16e0ecf675b6be52
+28:08:21 00:05:33: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:35: <module>: INFO: Quiting the browser session
+28:08:21 00:05:36: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:05:38: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:05:38: MobilePage: INFO: Element :: 62468f3a-344d-4499-a8bd-20ed33ea6f04 found for locator :: ('link text', 'MOBILE'). Session_id :: b240ad68325c1d6537c60c028ee29715
+28:08:21 00:05:39: MobilePage: INFO: Clicked on Element : 62468f3a-344d-4499-a8bd-20ed33ea6f04
+28:08:21 00:05:39: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:39: MobilePage: INFO: Element :: de605634-fa67-4ab8-aafb-0c4ed5f4b9d7 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: b240ad68325c1d6537c60c028ee29715
+28:08:21 00:05:40: MobilePage: INFO: Clicked on Element : de605634-fa67-4ab8-aafb-0c4ed5f4b9d7
+28:08:21 00:05:40: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:05:40: MobilePage: INFO: Element :: 48da0e47-4868-4023-82f8-b1b7ede95096 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: b240ad68325c1d6537c60c028ee29715
+28:08:21 00:05:41: MobilePage: INFO: Clicked on Element : 48da0e47-4868-4023-82f8-b1b7ede95096
+28:08:21 00:05:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:05:41: MobilePage: INFO: Element :: b7a80aa8-f2c5-436f-916b-5a311fdaea61 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: b240ad68325c1d6537c60c028ee29715
+28:08:21 00:05:41: MobilePage: INFO: Clicked on Element : b7a80aa8-f2c5-436f-916b-5a311fdaea61
+28:08:21 00:05:41: MobilePage: INFO: All available Window's are :: ['CDwindow-BA20E1F5A7E80A7BC65C585FBDC28E44', 'CDwindow-8178B15FC2B848E4AAE52E5955D28786']
+28:08:21 00:05:41: MobilePage: INFO: Switched to new window :: CDwindow-8178B15FC2B848E4AAE52E5955D28786
+28:08:21 00:05:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:42: MobilePage: INFO: Element :: 3e5071ae-23b4-4f02-9ab7-416a1f9ea1e5 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: b240ad68325c1d6537c60c028ee29715
+28:08:21 00:05:42: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:05:44: <module>: INFO: Quiting the browser session
+28:08:21 00:05:45: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:05:47: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:05:47: MobilePage: INFO: Element :: 257e1012-ec64-4f39-a4c9-8ffdcab70e90 found for locator :: ('link text', 'MOBILE'). Session_id :: 8ad8d1c1a45a32fafc624302f09ede25
+28:08:21 00:05:48: MobilePage: INFO: Clicked on Element : 257e1012-ec64-4f39-a4c9-8ffdcab70e90
+28:08:21 00:05:48: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="8ad8d1c1a45a32fafc624302f09ede25", element="eb9f739e-d2c4-403b-9f5d-1fe5a87fb159")>, <selenium.webdriver.remote.webelement.WebElement (session="8ad8d1c1a45a32fafc624302f09ede25", element="d4e7527e-7212-4553-b650-e6411ffbf666")>, <selenium.webdriver.remote.webelement.WebElement (session="8ad8d1c1a45a32fafc624302f09ede25", element="1b8e0e2b-90bd-4ce4-965a-3ec0b27f7dcb")>] for locator :: ('xpath', "//div[@class='category-products']/ul/li/a")
+28:08:21 00:05:48: MobilePage: INFO: Value of attribute
+28:08:21 00:05:48: MobilePage: INFO: Value of attribute
+28:08:21 00:05:48: MobilePage: INFO: Value of attribute
+28:08:21 00:05:48: MobilePage: INFO: Attribute list is :: ['Samsung Galaxy', 'Xperia', 'IPhone']
+28:08:21 00:05:50: <module>: INFO: Quiting the browser session
+28:08:21 00:05:51: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:05:53: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:05:53: MobilePage: INFO: Element :: d2a7b09e-2da1-43f1-8950-569a73b85947 found for locator :: ('link text', 'MOBILE'). Session_id :: ed29d42c1db2384762254a0c290d9a9c
+28:08:21 00:05:54: MobilePage: INFO: Clicked on Element : d2a7b09e-2da1-43f1-8950-569a73b85947
+28:08:21 00:05:54: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:05:54: MobilePage: INFO: Element :: cbb2d7d9-63f4-45b0-b9b2-957f45d81469 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: ed29d42c1db2384762254a0c290d9a9c
+28:08:21 00:05:55: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:05:55: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="ed29d42c1db2384762254a0c290d9a9c", element="3ee49fdd-28b2-4566-a108-308edf2da185")>, <selenium.webdriver.remote.webelement.WebElement (session="ed29d42c1db2384762254a0c290d9a9c", element="2a199f62-c9f5-41a2-8fa2-075652d6dfc5")>, <selenium.webdriver.remote.webelement.WebElement (session="ed29d42c1db2384762254a0c290d9a9c", element="556b3560-04d6-42ab-a38d-b833c79bfa9e")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:05:55: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:05:57: <module>: INFO: Quiting the browser session
+28:08:21 00:05:59: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:08:30: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:08:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:08:32: MobilePage: INFO: Element :: 1fa34080-e86c-4a88-b448-987be3ca2638 found for locator :: ('link text', 'MOBILE'). Session_id :: 851ee6c8506ae222155236458674323a
+28:08:21 00:08:33: MobilePage: INFO: Clicked on Element : 1fa34080-e86c-4a88-b448-987be3ca2638
+28:08:21 00:08:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:33: MobilePage: INFO: Element :: 6531e24b-54a3-4233-a42c-c0d7cbe53b11 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 851ee6c8506ae222155236458674323a
+28:08:21 00:08:34: MobilePage: INFO: Clicked on Element : 6531e24b-54a3-4233-a42c-c0d7cbe53b11
+28:08:21 00:08:34: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:39: MobilePage: ERROR: No Element found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Exception Occurred :: TimeoutException
+28:08:21 00:08:39: MobilePage: ERROR: Unable to click on locator. No element was found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:39: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:08:39: MobilePage: INFO: Element :: 5a4ad50c-4e20-40cd-965c-33dc1061cd5d found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 851ee6c8506ae222155236458674323a
+28:08:21 00:08:39: MobilePage: INFO: Clicked on Element : 5a4ad50c-4e20-40cd-965c-33dc1061cd5d
+28:08:21 00:08:39: MobilePage: INFO: All available Window's are :: ['CDwindow-5B4FAE2CD58EC3DB9090109F5DC58504', 'CDwindow-BA780F06840CE77FEB7A0FD87BD642FA']
+28:08:21 00:08:39: MobilePage: INFO: Switched to new window :: CDwindow-BA780F06840CE77FEB7A0FD87BD642FA
+28:08:21 00:08:39: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:08:40: MobilePage: INFO: Element :: 820234f9-c069-40e8-98bb-031d2cb49fa7 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 851ee6c8506ae222155236458674323a
+28:08:21 00:08:40: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:08:42: <module>: INFO: Quiting the browser session
+28:08:21 00:08:44: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:08:46: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:08:46: MobilePage: INFO: Element :: 09f0f835-d8b1-4f88-b9c9-e28cd7bbd65c found for locator :: ('link text', 'MOBILE'). Session_id :: de12bbc2098b36f78b799a7a4d51038c
+28:08:21 00:08:47: MobilePage: INFO: Clicked on Element : 09f0f835-d8b1-4f88-b9c9-e28cd7bbd65c
+28:08:21 00:08:47: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:47: MobilePage: INFO: Element :: 6f857f3d-915d-46ab-ae3c-741ca000f8e3 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: de12bbc2098b36f78b799a7a4d51038c
+28:08:21 00:08:47: MobilePage: INFO: Clicked on Element : 6f857f3d-915d-46ab-ae3c-741ca000f8e3
+28:08:21 00:08:47: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:47: MobilePage: INFO: Element :: 06612d32-67d3-42b1-9d93-4f3bbaa32638 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: de12bbc2098b36f78b799a7a4d51038c
+28:08:21 00:08:48: MobilePage: INFO: Clicked on Element : 06612d32-67d3-42b1-9d93-4f3bbaa32638
+28:08:21 00:08:48: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:08:48: MobilePage: INFO: Element :: 162f4b25-f1f5-4ac7-89a3-ebcca1546369 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: de12bbc2098b36f78b799a7a4d51038c
+28:08:21 00:08:48: MobilePage: INFO: Clicked on Element : 162f4b25-f1f5-4ac7-89a3-ebcca1546369
+28:08:21 00:08:48: MobilePage: INFO: All available Window's are :: ['CDwindow-6DF7ABC4B7F3CE4FE47136ECDAA43C46', 'CDwindow-77C9AC55A6EFB46F24C1A78B00DFD51B']
+28:08:21 00:08:48: MobilePage: INFO: Switched to new window :: CDwindow-77C9AC55A6EFB46F24C1A78B00DFD51B
+28:08:21 00:08:48: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:08:49: MobilePage: INFO: Element :: bc2d090b-bef2-4692-9fb0-9c55cdf4ab4c found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: de12bbc2098b36f78b799a7a4d51038c
+28:08:21 00:08:49: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:08:51: <module>: INFO: Quiting the browser session
+28:08:21 00:08:52: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:08:54: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:08:54: MobilePage: INFO: Element :: c583b5aa-1023-47b9-945b-a64c7e7fae79 found for locator :: ('link text', 'MOBILE'). Session_id :: ab0bff3bf2e565c40d1b6933114e5cfe
+28:08:21 00:08:55: MobilePage: INFO: Clicked on Element : c583b5aa-1023-47b9-945b-a64c7e7fae79
+28:08:21 00:08:55: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:55: MobilePage: INFO: Element :: 8507e10d-3b53-462a-a3d7-e54c5479fa6d found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: ab0bff3bf2e565c40d1b6933114e5cfe
+28:08:21 00:08:56: MobilePage: INFO: Clicked on Element : 8507e10d-3b53-462a-a3d7-e54c5479fa6d
+28:08:21 00:08:56: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:08:56: MobilePage: INFO: Element :: d0b27b06-0d33-4519-9809-eea5109abb8e found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: ab0bff3bf2e565c40d1b6933114e5cfe
+28:08:21 00:08:57: MobilePage: INFO: Clicked on Element : d0b27b06-0d33-4519-9809-eea5109abb8e
+28:08:21 00:08:57: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:08:57: MobilePage: INFO: Element :: 4f749641-cf81-4552-b95b-3c0b6c22c590 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: ab0bff3bf2e565c40d1b6933114e5cfe
+28:08:21 00:08:57: MobilePage: INFO: Clicked on Element : 4f749641-cf81-4552-b95b-3c0b6c22c590
+28:08:21 00:08:57: MobilePage: INFO: All available Window's are :: ['CDwindow-E5F138BBD89FC3EC6101D7E24A54E7B1', 'CDwindow-AB991B471C55B87D2E53BF13F6CBF879']
+28:08:21 00:08:57: MobilePage: INFO: Switched to new window :: CDwindow-AB991B471C55B87D2E53BF13F6CBF879
+28:08:21 00:08:57: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:08:58: MobilePage: INFO: Element :: 670c3f13-172c-43ed-b3b3-88e4be34d956 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: ab0bff3bf2e565c40d1b6933114e5cfe
+28:08:21 00:08:58: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:09:00: <module>: INFO: Quiting the browser session
+28:08:21 00:09:01: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:09:03: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:09:03: MobilePage: INFO: Element :: cd06e75d-8a4a-4598-8844-708184dc9773 found for locator :: ('link text', 'MOBILE'). Session_id :: bbc528e14e852028ffd3622b9ce31b5e
+28:08:21 00:09:04: MobilePage: INFO: Clicked on Element : cd06e75d-8a4a-4598-8844-708184dc9773
+28:08:21 00:09:04: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="bbc528e14e852028ffd3622b9ce31b5e", element="96b1ae1e-904f-48a1-832e-13a75c12b737")>, <selenium.webdriver.remote.webelement.WebElement (session="bbc528e14e852028ffd3622b9ce31b5e", element="b302d58c-c2a6-4d4f-9262-8393934e86bc")>, <selenium.webdriver.remote.webelement.WebElement (session="bbc528e14e852028ffd3622b9ce31b5e", element="dd44e355-5449-449e-bf21-4d2d8bb662eb")>] for locator :: ('xpath', "//div[@class='category-products']/ul/li/a")
+28:08:21 00:09:04: MobilePage: INFO: Value of attribute
+28:08:21 00:09:04: MobilePage: INFO: Value of attribute
+28:08:21 00:09:04: MobilePage: INFO: Value of attribute
+28:08:21 00:09:04: MobilePage: INFO: Attribute list is :: ['Samsung Galaxy', 'Xperia', 'IPhone']
+28:08:21 00:09:06: <module>: INFO: Quiting the browser session
+28:08:21 00:09:07: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:09:09: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:09:09: MobilePage: INFO: Element :: d9bb46d1-2857-45ef-a6c6-33ba4e795c3b found for locator :: ('link text', 'MOBILE'). Session_id :: e52edff6c2827b89a80b9a02fad0dc4f
+28:08:21 00:09:10: MobilePage: INFO: Clicked on Element : d9bb46d1-2857-45ef-a6c6-33ba4e795c3b
+28:08:21 00:09:10: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:09:10: MobilePage: INFO: Element :: 0176c9b8-82d3-4b3c-836d-b4dceda93c16 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: e52edff6c2827b89a80b9a02fad0dc4f
+28:08:21 00:09:11: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:09:11: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="e52edff6c2827b89a80b9a02fad0dc4f", element="65d4f23b-8dd5-40c6-8bf7-66454b2f254b")>, <selenium.webdriver.remote.webelement.WebElement (session="e52edff6c2827b89a80b9a02fad0dc4f", element="8cb6dd5e-72a5-4a42-bcb4-dddbd4b0095d")>, <selenium.webdriver.remote.webelement.WebElement (session="e52edff6c2827b89a80b9a02fad0dc4f", element="c71b33b5-497b-489d-8f67-3d444e80d5eb")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:09:11: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:09:12: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Name-[IPHONE,_2021-08-28 00-09-11-692318.png
+28:08:21 00:09:14: <module>: INFO: Quiting the browser session
+28:08:21 00:09:15: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:09:17: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:09:17: MobilePage: INFO: Element :: 5b1be1ec-96c7-4844-b109-437b2925b860 found for locator :: ('link text', 'MOBILE'). Session_id :: 3af7f8154f8765a273b3d02c1cdcbc0c
+28:08:21 00:09:18: MobilePage: INFO: Clicked on Element : 5b1be1ec-96c7-4844-b109-437b2925b860
+28:08:21 00:09:18: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:09:18: MobilePage: INFO: Element :: 25fb27ad-323e-41ef-81e7-0d01d38961c0 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 3af7f8154f8765a273b3d02c1cdcbc0c
+28:08:21 00:09:19: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:09:19: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="3af7f8154f8765a273b3d02c1cdcbc0c", element="ec4968af-2870-4f90-a25c-207e1b2dc19e")>, <selenium.webdriver.remote.webelement.WebElement (session="3af7f8154f8765a273b3d02c1cdcbc0c", element="a8793c08-2e78-4fe7-acd9-5c3c4928520d")>, <selenium.webdriver.remote.webelement.WebElement (session="3af7f8154f8765a273b3d02c1cdcbc0c", element="91dade79-5d80-47f5-8475-c77a86e27ac9")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:09:19: MobilePage: INFO: The TEXT for Elements are :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+28:08:21 00:09:19: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Price-[SONY_2021-08-28 00-09-19-345313.png
+28:08:21 00:09:21: <module>: INFO: Quiting the browser session
+28:08:21 00:09:23: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:09:25: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:09:25: Account: INFO: Element :: e29065db-5e4c-4bc7-8d4d-2366d74bc7d3 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:25: Account: INFO: Clicked on Element : e29065db-5e4c-4bc7-8d4d-2366d74bc7d3
+28:08:21 00:09:25: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:09:25: Account: INFO: Element :: c2bc23d9-d382-4ff5-9e8f-6c46ca5b53ab found for locator :: ('link text', 'Register'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:25: Account: INFO: Clicked on Element : c2bc23d9-d382-4ff5-9e8f-6c46ca5b53ab
+28:08:21 00:09:25: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:09:25: Account: INFO: Element :: 57f79760-20c1-42c8-baa2-b789b59f4f6a found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:26: Account: INFO: Clicked on Element : 57f79760-20c1-42c8-baa2-b789b59f4f6a
+28:08:21 00:09:26: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:09:26: Account: INFO: Element :: 584d3dca-ed63-4601-b32c-62ee61a35827 found for locator :: ('link text', 'Register'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:26: Account: INFO: Clicked on Element : 584d3dca-ed63-4601-b32c-62ee61a35827
+28:08:21 00:09:26: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:09:26: Account: INFO: Element :: 9ff73410-bad5-4df4-a867-2f8f07090001 found for locator :: ('id', 'firstname'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:26: Account: INFO: Text :: Testttt entered on element :: 9ff73410-bad5-4df4-a867-2f8f07090001
+28:08:21 00:09:26: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:09:26: Account: INFO: Element :: 18f8bc8d-9306-4386-bae2-194df6ca8022 found for locator :: ('id', 'lastname'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:27: Account: INFO: Text :: five entered on element :: 18f8bc8d-9306-4386-bae2-194df6ca8022
+28:08:21 00:09:27: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:09:27: Account: INFO: Element :: 4bba7f5c-ddc3-4b3e-a634-33058d23daee found for locator :: ('id', 'email_address'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:27: Account: INFO: Text :: testttt@five.com entered on element :: 4bba7f5c-ddc3-4b3e-a634-33058d23daee
+28:08:21 00:09:27: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:09:27: Account: INFO: Element :: 56ec6462-c6c8-4883-9538-0bd5dd456319 found for locator :: ('id', 'password'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:27: Account: INFO: Text :: test12345 entered on element :: 56ec6462-c6c8-4883-9538-0bd5dd456319
+28:08:21 00:09:27: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:09:27: Account: INFO: Element :: 70375ca5-f282-4987-ae51-f843a6a4416e found for locator :: ('id', 'confirmation'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:27: Account: INFO: Text :: test12345 entered on element :: 70375ca5-f282-4987-ae51-f843a6a4416e
+28:08:21 00:09:27: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:09:27: Account: INFO: Element :: 321fc560-20e1-439e-a0bb-8b38ff22e883 found for locator :: ('id', 'is_subscribed'). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:27: Account: INFO: Clicked on Element : 321fc560-20e1-439e-a0bb-8b38ff22e883
+28:08:21 00:09:27: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:09:27: Account: INFO: Element :: 2c396ae6-e83d-4ecf-b0b7-143ce79537a3 found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: ddbd06f5887f9115cfda8a66e72d807d
+28:08:21 00:09:28: Account: INFO: Clicked on Element : 2c396ae6-e83d-4ecf-b0b7-143ce79537a3
+28:08:21 00:09:28: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:09:33: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:09:33: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:09:34: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-five-testttt@five.com-test12345-test12345-Thank_2021-08-28 00-09-33-799998.png
+28:08:21 00:09:36: <module>: INFO: Quiting the browser session
+28:08:21 00:09:37: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:09:39: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:09:39: Account: INFO: Element :: cf2dc778-c6ad-470a-8558-fe86d1902ca3 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:39: Account: INFO: Clicked on Element : cf2dc778-c6ad-470a-8558-fe86d1902ca3
+28:08:21 00:09:39: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:09:39: Account: INFO: Element :: 5fdd9ecd-8cc1-46ab-9309-26dae8e25ac9 found for locator :: ('link text', 'Register'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:40: Account: INFO: Clicked on Element : 5fdd9ecd-8cc1-46ab-9309-26dae8e25ac9
+28:08:21 00:09:40: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:09:40: Account: INFO: Element :: b73e4efb-462e-4b5e-965b-aed710e7c451 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:40: Account: INFO: Clicked on Element : b73e4efb-462e-4b5e-965b-aed710e7c451
+28:08:21 00:09:40: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:09:40: Account: INFO: Element :: 8111df3e-9182-4e28-a97a-71e760326ff1 found for locator :: ('link text', 'Register'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:40: Account: INFO: Clicked on Element : 8111df3e-9182-4e28-a97a-71e760326ff1
+28:08:21 00:09:40: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:09:40: Account: INFO: Element :: 287ab797-339f-4e5f-b24b-6b78073083b5 found for locator :: ('id', 'firstname'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Text :: Testttt entered on element :: 287ab797-339f-4e5f-b24b-6b78073083b5
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:09:41: Account: INFO: Element :: 2572b200-8527-4a8e-b983-0dda7c7ed328 found for locator :: ('id', 'lastname'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Text :: six entered on element :: 2572b200-8527-4a8e-b983-0dda7c7ed328
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:09:41: Account: INFO: Element :: 6e2897f0-5e86-431e-9aaa-e7fd392c11fe found for locator :: ('id', 'email_address'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Text :: testttt@six.com entered on element :: 6e2897f0-5e86-431e-9aaa-e7fd392c11fe
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:09:41: Account: INFO: Element :: 99cc284a-3ed6-459e-89be-14ff4703a607 found for locator :: ('id', 'password'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Text :: test12345 entered on element :: 99cc284a-3ed6-459e-89be-14ff4703a607
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:09:41: Account: INFO: Element :: 061d9b5e-4c74-48d1-aaa0-5098599a7f42 found for locator :: ('id', 'confirmation'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Text :: test12345 entered on element :: 061d9b5e-4c74-48d1-aaa0-5098599a7f42
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:09:41: Account: INFO: Element :: a558ee85-5f74-41b8-9317-a005c5965538 found for locator :: ('id', 'is_subscribed'). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:41: Account: INFO: Clicked on Element : a558ee85-5f74-41b8-9317-a005c5965538
+28:08:21 00:09:41: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:09:41: Account: INFO: Element :: df947d19-17ba-421c-a87c-8d74bd46bf63 found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: 23468265b624ed9f067f74a2873dcdc9
+28:08:21 00:09:42: Account: INFO: Clicked on Element : df947d19-17ba-421c-a87c-8d74bd46bf63
+28:08:21 00:09:42: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:09:47: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:09:47: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:09:48: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-six-testttt@six.com-test12345-test12345-Thank_2021-08-28 00-09-47-950673.png
+28:08:21 00:09:50: <module>: INFO: Quiting the browser session
+28:08:21 00:16:25: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:16:27: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:16:27: MobilePage: INFO: Element :: 9b369cb5-119a-47f3-b9fd-880fca2f7bf0 found for locator :: ('link text', 'MOBILE'). Session_id :: 83284ee4e4529731ee866eeb62f5c2f8
+28:08:21 00:16:28: MobilePage: INFO: Clicked on Element : 9b369cb5-119a-47f3-b9fd-880fca2f7bf0
+28:08:21 00:16:28: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:28: MobilePage: INFO: Element :: fd479754-0777-443a-8319-81375c72acb9 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 83284ee4e4529731ee866eeb62f5c2f8
+28:08:21 00:16:28: MobilePage: INFO: Clicked on Element : fd479754-0777-443a-8319-81375c72acb9
+28:08:21 00:16:28: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:34: MobilePage: ERROR: No Element found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Exception Occurred :: TimeoutException
+28:08:21 00:16:34: MobilePage: ERROR: Unable to click on locator. No element was found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:34: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:16:34: MobilePage: INFO: Element :: fa5df2c1-873d-477e-bba1-e88f9e71dcab found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 83284ee4e4529731ee866eeb62f5c2f8
+28:08:21 00:16:34: MobilePage: INFO: Clicked on Element : fa5df2c1-873d-477e-bba1-e88f9e71dcab
+28:08:21 00:16:34: MobilePage: INFO: All available Window's are :: ['CDwindow-3061226E60A8238E7F1608875EA8CD0F', 'CDwindow-27EAA617ECEDA2B07B1724AC8AAE463F']
+28:08:21 00:16:34: MobilePage: INFO: Switched to new window :: CDwindow-27EAA617ECEDA2B07B1724AC8AAE463F
+28:08:21 00:16:34: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:35: MobilePage: INFO: Element :: 84762d01-dce8-46b6-8eeb-bc92c8acd400 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 83284ee4e4529731ee866eeb62f5c2f8
+28:08:21 00:16:35: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:37: <module>: INFO: Quiting the browser session
+28:08:21 00:16:38: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:16:40: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:16:40: MobilePage: INFO: Element :: fa238990-d9a2-45c5-b9d1-e3316361e2d2 found for locator :: ('link text', 'MOBILE'). Session_id :: d1749f332c169a81bee9dedb5aa82e0d
+28:08:21 00:16:41: MobilePage: INFO: Clicked on Element : fa238990-d9a2-45c5-b9d1-e3316361e2d2
+28:08:21 00:16:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:41: MobilePage: INFO: Element :: 61d7c781-0772-4c3f-90bb-955a75d1c1c5 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: d1749f332c169a81bee9dedb5aa82e0d
+28:08:21 00:16:42: MobilePage: INFO: Clicked on Element : 61d7c781-0772-4c3f-90bb-955a75d1c1c5
+28:08:21 00:16:42: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:42: MobilePage: INFO: Element :: 85d268a9-8e4d-4c30-b750-566532417517 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: d1749f332c169a81bee9dedb5aa82e0d
+28:08:21 00:16:43: MobilePage: INFO: Clicked on Element : 85d268a9-8e4d-4c30-b750-566532417517
+28:08:21 00:16:43: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:16:43: MobilePage: INFO: Element :: 90b4cb82-beb4-4fd5-a7d5-139e5fc37a8d found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: d1749f332c169a81bee9dedb5aa82e0d
+28:08:21 00:16:43: MobilePage: INFO: Clicked on Element : 90b4cb82-beb4-4fd5-a7d5-139e5fc37a8d
+28:08:21 00:16:43: MobilePage: INFO: All available Window's are :: ['CDwindow-78DF35FC5645B681E9C336AF8F4EDFB5', 'CDwindow-1DFD095C8E7E4393E3748B471760EAD3']
+28:08:21 00:16:43: MobilePage: INFO: Switched to new window :: CDwindow-1DFD095C8E7E4393E3748B471760EAD3
+28:08:21 00:16:43: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:44: MobilePage: INFO: Element :: 22e55868-328b-4bff-8d07-e1dc677eeeae found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: d1749f332c169a81bee9dedb5aa82e0d
+28:08:21 00:16:44: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:46: <module>: INFO: Quiting the browser session
+28:08:21 00:16:47: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:16:49: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:16:49: MobilePage: INFO: Element :: bcbf3af5-a670-45ec-8c8f-192959616280 found for locator :: ('link text', 'MOBILE'). Session_id :: acdd0361a99d40e0b4377a6e08f1de3c
+28:08:21 00:16:50: MobilePage: INFO: Clicked on Element : bcbf3af5-a670-45ec-8c8f-192959616280
+28:08:21 00:16:50: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:50: MobilePage: INFO: Element :: 87c4e8fc-32c7-452e-9042-403b411a52bd found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: acdd0361a99d40e0b4377a6e08f1de3c
+28:08:21 00:16:51: MobilePage: INFO: Clicked on Element : 87c4e8fc-32c7-452e-9042-403b411a52bd
+28:08:21 00:16:51: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:16:51: MobilePage: INFO: Element :: 04cc1f12-69b5-4a30-b89c-ba8b6f826ff9 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: acdd0361a99d40e0b4377a6e08f1de3c
+28:08:21 00:16:52: MobilePage: INFO: Clicked on Element : 04cc1f12-69b5-4a30-b89c-ba8b6f826ff9
+28:08:21 00:16:52: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:16:52: MobilePage: INFO: Element :: 064fc920-5b69-4c21-801b-3e2d45dfba71 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: acdd0361a99d40e0b4377a6e08f1de3c
+28:08:21 00:16:52: MobilePage: INFO: Clicked on Element : 064fc920-5b69-4c21-801b-3e2d45dfba71
+28:08:21 00:16:52: MobilePage: INFO: All available Window's are :: ['CDwindow-6567A7F44EBAF85C74254772DC88BB5F', 'CDwindow-D243876E88874620A3EE6C5B6EF9A8AC']
+28:08:21 00:16:52: MobilePage: INFO: Switched to new window :: CDwindow-D243876E88874620A3EE6C5B6EF9A8AC
+28:08:21 00:16:52: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:53: MobilePage: INFO: Element :: d11a8b52-0a74-4ae6-a96c-8d647461af69 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: acdd0361a99d40e0b4377a6e08f1de3c
+28:08:21 00:16:53: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:16:55: <module>: INFO: Quiting the browser session
+28:08:21 00:16:56: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:16:59: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:16:59: MobilePage: INFO: Element :: c9d13c47-8d8e-47e9-a2ea-302b238c48cb found for locator :: ('link text', 'MOBILE'). Session_id :: 214556216ee23f4c36d24ebc2ede5bd0
+28:08:21 00:16:59: MobilePage: INFO: Clicked on Element : c9d13c47-8d8e-47e9-a2ea-302b238c48cb
+28:08:21 00:16:59: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="214556216ee23f4c36d24ebc2ede5bd0", element="1814066d-b010-4193-b9e6-75f983455d4f")>, <selenium.webdriver.remote.webelement.WebElement (session="214556216ee23f4c36d24ebc2ede5bd0", element="79c1553e-84ec-4049-a212-7982111ddfa2")>, <selenium.webdriver.remote.webelement.WebElement (session="214556216ee23f4c36d24ebc2ede5bd0", element="0b738cd3-8869-4f85-a10a-9235a574eabb")>] for locator :: ('xpath', "//div[@class='category-products']/ul/li/a")
+28:08:21 00:16:59: MobilePage: INFO: Value of attribute
+28:08:21 00:16:59: MobilePage: INFO: Value of attribute
+28:08:21 00:16:59: MobilePage: INFO: Value of attribute
+28:08:21 00:16:59: MobilePage: INFO: Attribute list is :: ['Samsung Galaxy', 'Xperia', 'IPhone']
+28:08:21 00:17:01: <module>: INFO: Quiting the browser session
+28:08:21 00:17:03: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:17:05: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:17:05: MobilePage: INFO: Element :: 5a467b40-7412-4fc7-97f2-2e838eb953bb found for locator :: ('link text', 'MOBILE'). Session_id :: b23842ec8f8adcb4347da47d26442337
+28:08:21 00:17:06: MobilePage: INFO: Clicked on Element : 5a467b40-7412-4fc7-97f2-2e838eb953bb
+28:08:21 00:17:06: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:17:06: MobilePage: INFO: Element :: 16d6f70b-e0a6-4226-98b5-a8dc1566d7ba found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: b23842ec8f8adcb4347da47d26442337
+28:08:21 00:17:06: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:17:06: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="b23842ec8f8adcb4347da47d26442337", element="c268afba-6cd1-4064-856a-7fc69873f7bc")>, <selenium.webdriver.remote.webelement.WebElement (session="b23842ec8f8adcb4347da47d26442337", element="de6a80c7-4470-4ade-b258-cd7bf08d9438")>, <selenium.webdriver.remote.webelement.WebElement (session="b23842ec8f8adcb4347da47d26442337", element="fb79dfd0-7b01-49d5-a343-15b7ba77e053")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:17:06: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:17:07: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Name-[IPHONE,_2021-08-28 00-17-07-023079.png
+28:08:21 00:17:09: <module>: INFO: Quiting the browser session
+28:08:21 00:17:10: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:17:12: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:17:12: MobilePage: INFO: Element :: 59f34343-2119-441a-89e5-115f634d3f51 found for locator :: ('link text', 'MOBILE'). Session_id :: 63f06d5542b0c02f2e289b7e2380f59e
+28:08:21 00:17:13: MobilePage: INFO: Clicked on Element : 59f34343-2119-441a-89e5-115f634d3f51
+28:08:21 00:17:13: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:17:13: MobilePage: INFO: Element :: 327d18ae-ce34-47f4-af04-583e217218ad found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 63f06d5542b0c02f2e289b7e2380f59e
+28:08:21 00:17:14: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:17:14: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="63f06d5542b0c02f2e289b7e2380f59e", element="e3066a65-cf0c-4860-915a-6cf316da6f90")>, <selenium.webdriver.remote.webelement.WebElement (session="63f06d5542b0c02f2e289b7e2380f59e", element="6dbfd952-a02e-49f2-9964-42315ffa8139")>, <selenium.webdriver.remote.webelement.WebElement (session="63f06d5542b0c02f2e289b7e2380f59e", element="3dcb1161-6cd3-47a1-b5cf-04a372e60204")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:17:14: MobilePage: INFO: The TEXT for Elements are :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+28:08:21 00:17:15: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Price-[SONY_2021-08-28 00-17-14-846181.png
+28:08:21 00:17:17: <module>: INFO: Quiting the browser session
+28:08:21 00:17:18: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:17:20: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:17:20: Account: INFO: Element :: 789f1be3-5656-42fb-bb81-ea234add9163 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:21: Account: INFO: Clicked on Element : 789f1be3-5656-42fb-bb81-ea234add9163
+28:08:21 00:17:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:17:21: Account: INFO: Element :: 68a249b6-852b-4c91-a7b1-85fdec415b1f found for locator :: ('link text', 'Register'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:21: Account: INFO: Clicked on Element : 68a249b6-852b-4c91-a7b1-85fdec415b1f
+28:08:21 00:17:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:17:21: Account: INFO: Element :: 0a4f9c30-2607-4d9b-94d8-a673961a1427 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:21: Account: INFO: Clicked on Element : 0a4f9c30-2607-4d9b-94d8-a673961a1427
+28:08:21 00:17:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:17:21: Account: INFO: Element :: fbd0cd0c-26d1-4887-88e3-9a61dc894bdd found for locator :: ('link text', 'Register'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Clicked on Element : fbd0cd0c-26d1-4887-88e3-9a61dc894bdd
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:17:22: Account: INFO: Element :: 350a707c-c9b5-4e0c-a7c0-2593c6e725c4 found for locator :: ('id', 'firstname'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Text :: Testttt entered on element :: 350a707c-c9b5-4e0c-a7c0-2593c6e725c4
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:17:22: Account: INFO: Element :: cbea25fe-b04d-4558-9fa1-1355c31ab4d3 found for locator :: ('id', 'lastname'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Text :: five entered on element :: cbea25fe-b04d-4558-9fa1-1355c31ab4d3
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:17:22: Account: INFO: Element :: 56593421-8ebf-4d7a-ab51-30f485c1a600 found for locator :: ('id', 'email_address'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Text :: testttt@five.com entered on element :: 56593421-8ebf-4d7a-ab51-30f485c1a600
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:17:22: Account: INFO: Element :: 8d7ed73f-be36-4b1f-a149-162a19ee0571 found for locator :: ('id', 'password'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Text :: test12345 entered on element :: 8d7ed73f-be36-4b1f-a149-162a19ee0571
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:17:22: Account: INFO: Element :: 74b687bf-73da-462d-b45d-6e6af8c87cf3 found for locator :: ('id', 'confirmation'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Text :: test12345 entered on element :: 74b687bf-73da-462d-b45d-6e6af8c87cf3
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:17:22: Account: INFO: Element :: 93e866d9-d2b7-4b72-99ab-0e14d9957b7d found for locator :: ('id', 'is_subscribed'). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:22: Account: INFO: Clicked on Element : 93e866d9-d2b7-4b72-99ab-0e14d9957b7d
+28:08:21 00:17:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:17:22: Account: INFO: Element :: 386e7743-1adc-43f3-90ba-488cf4692f0b found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: fcfce106dd0b09ce5d095d0419b54f1b
+28:08:21 00:17:23: Account: INFO: Clicked on Element : 386e7743-1adc-43f3-90ba-488cf4692f0b
+28:08:21 00:17:23: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:17:28: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:17:28: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:17:29: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-five-testttt@five.com-test12345-test12345-Thank_2021-08-28 00-17-28-879188.png
+28:08:21 00:17:31: <module>: INFO: Quiting the browser session
+28:08:21 00:17:32: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:17:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:17:34: Account: INFO: Element :: 37f32bee-7330-49a0-a879-6724f8ba9502 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:34: Account: INFO: Clicked on Element : 37f32bee-7330-49a0-a879-6724f8ba9502
+28:08:21 00:17:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:17:34: Account: INFO: Element :: 263dbbca-f13b-4a9d-875d-27115c5dde57 found for locator :: ('link text', 'Register'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:35: Account: INFO: Clicked on Element : 263dbbca-f13b-4a9d-875d-27115c5dde57
+28:08:21 00:17:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:17:35: Account: INFO: Element :: b849ee18-7621-44af-ad3f-09d68be7a2fc found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:35: Account: INFO: Clicked on Element : b849ee18-7621-44af-ad3f-09d68be7a2fc
+28:08:21 00:17:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:17:35: Account: INFO: Element :: d190c346-3504-4c42-961a-32a123c41af2 found for locator :: ('link text', 'Register'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Clicked on Element : d190c346-3504-4c42-961a-32a123c41af2
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:17:36: Account: INFO: Element :: f3586480-8b13-474a-b665-320324412555 found for locator :: ('id', 'firstname'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Text :: Testttt entered on element :: f3586480-8b13-474a-b665-320324412555
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:17:36: Account: INFO: Element :: 870146ee-fd58-437f-8063-948c189ae047 found for locator :: ('id', 'lastname'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Text :: six entered on element :: 870146ee-fd58-437f-8063-948c189ae047
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:17:36: Account: INFO: Element :: 4c04a228-ec28-4c37-a4ec-e0adf62a5fdb found for locator :: ('id', 'email_address'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Text :: testttt@six.com entered on element :: 4c04a228-ec28-4c37-a4ec-e0adf62a5fdb
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:17:36: Account: INFO: Element :: 8486c58e-7f39-4bbf-b407-770413c1be66 found for locator :: ('id', 'password'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Text :: test12345 entered on element :: 8486c58e-7f39-4bbf-b407-770413c1be66
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:17:36: Account: INFO: Element :: 3bcc2f71-6fc2-4c14-9c4f-ac28b8743228 found for locator :: ('id', 'confirmation'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Text :: test12345 entered on element :: 3bcc2f71-6fc2-4c14-9c4f-ac28b8743228
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:17:36: Account: INFO: Element :: c8a9dcdd-7b0c-4693-aad1-6da53915603e found for locator :: ('id', 'is_subscribed'). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:36: Account: INFO: Clicked on Element : c8a9dcdd-7b0c-4693-aad1-6da53915603e
+28:08:21 00:17:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:17:36: Account: INFO: Element :: 5bdba85f-5888-4507-baa8-5256ad478592 found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: 78b4cf5df36636b477f7e0dfee1faafa
+28:08:21 00:17:37: Account: INFO: Clicked on Element : 5bdba85f-5888-4507-baa8-5256ad478592
+28:08:21 00:17:37: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:17:42: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:17:42: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:17:43: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-six-testttt@six.com-test12345-test12345-Thank_2021-08-28 00-17-43-001506.png
+28:08:21 00:17:45: <module>: INFO: Quiting the browser session
+28:08:21 00:24:23: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:24:25: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:24:25: MobilePage: INFO: Element :: 7d4ed7e5-1d68-4575-a4e3-3d83854d7af7 found for locator :: ('link text', 'MOBILE'). Session_id :: 9391e7aa4f9b55444ba233ba0e84bab7
+28:08:21 00:24:26: MobilePage: INFO: Clicked on Element : 7d4ed7e5-1d68-4575-a4e3-3d83854d7af7
+28:08:21 00:24:26: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:26: MobilePage: INFO: Element :: c46bcf26-6c32-40d2-8926-330a67503baa found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 9391e7aa4f9b55444ba233ba0e84bab7
+28:08:21 00:24:27: MobilePage: INFO: Clicked on Element : c46bcf26-6c32-40d2-8926-330a67503baa
+28:08:21 00:24:27: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:33: MobilePage: ERROR: No Element found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Exception Occurred :: TimeoutException
+28:08:21 00:24:33: MobilePage: ERROR: Unable to click on locator. No element was found for locator :: ('xpath', "//a[text()='IPhone1']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:24:33: MobilePage: INFO: Element :: 4d62b2c3-a705-4598-bfee-11c802142156 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 9391e7aa4f9b55444ba233ba0e84bab7
+28:08:21 00:24:33: MobilePage: INFO: Clicked on Element : 4d62b2c3-a705-4598-bfee-11c802142156
+28:08:21 00:24:33: MobilePage: INFO: All available Window's are :: ['CDwindow-F1EF773B2FAC3BF5FA2DB61F0DE5E829', 'CDwindow-16CF27051A0A714855A75D7EB69BC431']
+28:08:21 00:24:33: MobilePage: INFO: Switched to new window :: CDwindow-16CF27051A0A714855A75D7EB69BC431
+28:08:21 00:24:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:34: MobilePage: INFO: Element :: 7a14ba6f-204e-4392-8489-f7c7e7a6e18e found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 9391e7aa4f9b55444ba233ba0e84bab7
+28:08:21 00:24:34: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:36: <module>: INFO: Quiting the browser session
+28:08:21 00:24:37: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:24:39: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:24:39: MobilePage: INFO: Element :: 3f3fd4fe-8f7a-4fa9-ad5c-f991f3d1fdc1 found for locator :: ('link text', 'MOBILE'). Session_id :: 04a0450145fc1691b8d35b01b7b86079
+28:08:21 00:24:40: MobilePage: INFO: Clicked on Element : 3f3fd4fe-8f7a-4fa9-ad5c-f991f3d1fdc1
+28:08:21 00:24:40: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:40: MobilePage: INFO: Element :: 01aa90ae-866f-41d2-9a37-a572bd106871 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 04a0450145fc1691b8d35b01b7b86079
+28:08:21 00:24:41: MobilePage: INFO: Clicked on Element : 01aa90ae-866f-41d2-9a37-a572bd106871
+28:08:21 00:24:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:41: MobilePage: INFO: Element :: 5a7d6834-772d-4b1b-8fa5-16ae7d2831b4 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 04a0450145fc1691b8d35b01b7b86079
+28:08:21 00:24:41: MobilePage: INFO: Clicked on Element : 5a7d6834-772d-4b1b-8fa5-16ae7d2831b4
+28:08:21 00:24:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:24:41: MobilePage: INFO: Element :: 5dbb1bf1-6235-47b4-9f61-08c589f1e22f found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 04a0450145fc1691b8d35b01b7b86079
+28:08:21 00:24:42: MobilePage: INFO: Clicked on Element : 5dbb1bf1-6235-47b4-9f61-08c589f1e22f
+28:08:21 00:24:42: MobilePage: INFO: All available Window's are :: ['CDwindow-240546E5354B326FEADB06112700891E', 'CDwindow-7B73509790FC61BC01648F1E15C3EE49']
+28:08:21 00:24:42: MobilePage: INFO: Switched to new window :: CDwindow-7B73509790FC61BC01648F1E15C3EE49
+28:08:21 00:24:42: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:42: MobilePage: INFO: Element :: 31832102-7482-4c82-9586-7cf157304d77 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 04a0450145fc1691b8d35b01b7b86079
+28:08:21 00:24:42: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:44: <module>: INFO: Quiting the browser session
+28:08:21 00:24:46: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:24:48: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:24:48: MobilePage: INFO: Element :: 6d406d90-f76b-4996-bc7a-421f851e8f16 found for locator :: ('link text', 'MOBILE'). Session_id :: 8a6ea001fd56fb0e222de36af471b24a
+28:08:21 00:24:49: MobilePage: INFO: Clicked on Element : 6d406d90-f76b-4996-bc7a-421f851e8f16
+28:08:21 00:24:49: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:49: MobilePage: INFO: Element :: 1354c733-1739-4f21-92e7-cea5a9db5d43 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 8a6ea001fd56fb0e222de36af471b24a
+28:08:21 00:24:49: MobilePage: INFO: Clicked on Element : 1354c733-1739-4f21-92e7-cea5a9db5d43
+28:08:21 00:24:49: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:24:49: MobilePage: INFO: Element :: 8b31175f-2238-4da9-a01b-d92bd6553a7a found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 8a6ea001fd56fb0e222de36af471b24a
+28:08:21 00:24:50: MobilePage: INFO: Clicked on Element : 8b31175f-2238-4da9-a01b-d92bd6553a7a
+28:08:21 00:24:50: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:24:50: MobilePage: INFO: Element :: 6087d1d6-8e2b-4f5a-aa73-57a955cf6dd4 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 8a6ea001fd56fb0e222de36af471b24a
+28:08:21 00:24:50: MobilePage: INFO: Clicked on Element : 6087d1d6-8e2b-4f5a-aa73-57a955cf6dd4
+28:08:21 00:24:50: MobilePage: INFO: All available Window's are :: ['CDwindow-597DC36009A82448F37C5B8C55BB05DD', 'CDwindow-6E472E44B0D481A4B048A1ADB5927BA8']
+28:08:21 00:24:50: MobilePage: INFO: Switched to new window :: CDwindow-6E472E44B0D481A4B048A1ADB5927BA8
+28:08:21 00:24:50: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:51: MobilePage: INFO: Element :: e1ed4a21-ae7f-476c-9427-5a5221489134 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 8a6ea001fd56fb0e222de36af471b24a
+28:08:21 00:24:51: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:24:53: <module>: INFO: Quiting the browser session
+28:08:21 00:24:54: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:24:56: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:24:56: MobilePage: INFO: Element :: c3876b1c-da9b-468b-82b4-e878e06417f4 found for locator :: ('link text', 'MOBILE'). Session_id :: 184027d7f2cb49e1d8513bb6f1896d02
+28:08:21 00:24:57: MobilePage: INFO: Clicked on Element : c3876b1c-da9b-468b-82b4-e878e06417f4
+28:08:21 00:24:57: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="184027d7f2cb49e1d8513bb6f1896d02", element="76211640-6ad0-4b3f-a790-7ceebe521d5b")>, <selenium.webdriver.remote.webelement.WebElement (session="184027d7f2cb49e1d8513bb6f1896d02", element="5df6d760-0d68-4df7-b0f0-6f0268a90bf4")>, <selenium.webdriver.remote.webelement.WebElement (session="184027d7f2cb49e1d8513bb6f1896d02", element="14046736-fc48-452d-abb0-80517d7de336")>] for locator :: ('xpath', "//div[@class='category-products']/ul/li/a")
+28:08:21 00:24:57: MobilePage: INFO: Value of attribute
+28:08:21 00:24:57: MobilePage: INFO: Value of attribute
+28:08:21 00:24:57: MobilePage: INFO: Value of attribute
+28:08:21 00:24:57: MobilePage: INFO: Attribute list is :: ['IPhone', 'Samsung Galaxy', 'Xperia']
+28:08:21 00:24:58: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_one_2021-08-28 00-24-58-040320.png
+28:08:21 00:25:00: <module>: INFO: Quiting the browser session
+28:08:21 00:25:02: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:25:04: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:25:04: MobilePage: INFO: Element :: 0944f53d-1e31-4ba1-9442-3fbdaf7c09c0 found for locator :: ('link text', 'MOBILE'). Session_id :: 72c3f70b3619b54eae5418f655959ff7
+28:08:21 00:25:05: MobilePage: INFO: Clicked on Element : 0944f53d-1e31-4ba1-9442-3fbdaf7c09c0
+28:08:21 00:25:05: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:25:05: MobilePage: INFO: Element :: a54ac52f-a645-4f76-ac21-cef64f9d6006 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 72c3f70b3619b54eae5418f655959ff7
+28:08:21 00:25:05: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:25:06: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Name-[IPHONE,_2021-08-28 00-25-05-910294.png
+28:08:21 00:25:08: <module>: INFO: Quiting the browser session
+28:08:21 00:25:09: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:25:12: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:25:12: MobilePage: INFO: Element :: c952270c-bebb-4f7e-8651-b216a49a904f found for locator :: ('link text', 'MOBILE'). Session_id :: aa5871d7cc5839aa3d67b73cbc4f5e59
+28:08:21 00:25:13: MobilePage: INFO: Clicked on Element : c952270c-bebb-4f7e-8651-b216a49a904f
+28:08:21 00:25:13: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:25:13: MobilePage: INFO: Element :: 8260a118-afa1-438d-a553-3ec7f785cfb5 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: aa5871d7cc5839aa3d67b73cbc4f5e59
+28:08:21 00:25:13: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:25:14: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Price-[SONY_2021-08-28 00-25-13-992665.png
+28:08:21 00:25:16: <module>: INFO: Quiting the browser session
+28:08:21 00:25:17: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:25:19: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:25:19: Account: INFO: Element :: a0fcc955-90bf-4e57-bbcd-5979304338d0 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:20: Account: INFO: Clicked on Element : a0fcc955-90bf-4e57-bbcd-5979304338d0
+28:08:21 00:25:20: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:25:20: Account: INFO: Element :: 2b4dff05-c03a-42c6-93b7-4dea5ba056f0 found for locator :: ('link text', 'Register'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:20: Account: INFO: Clicked on Element : 2b4dff05-c03a-42c6-93b7-4dea5ba056f0
+28:08:21 00:25:20: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:25:20: Account: INFO: Element :: b495bfee-bf9f-4331-b8b5-088775d13aa8 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:20: Account: INFO: Clicked on Element : b495bfee-bf9f-4331-b8b5-088775d13aa8
+28:08:21 00:25:20: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:25:20: Account: INFO: Element :: 86cb895a-cf8e-49d7-89e5-e4b12f97584f found for locator :: ('link text', 'Register'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Clicked on Element : 86cb895a-cf8e-49d7-89e5-e4b12f97584f
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:25:21: Account: INFO: Element :: 1bcf1a28-c621-4a02-acc5-6b942f6dc495 found for locator :: ('id', 'firstname'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Text :: Testttt entered on element :: 1bcf1a28-c621-4a02-acc5-6b942f6dc495
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:25:21: Account: INFO: Element :: f824f061-b405-4a9f-a36d-edb853ff28ea found for locator :: ('id', 'lastname'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Text :: five entered on element :: f824f061-b405-4a9f-a36d-edb853ff28ea
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:25:21: Account: INFO: Element :: 7ec8a494-cef9-4725-a7f8-c2d970ea3beb found for locator :: ('id', 'email_address'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Text :: testttt@five.com entered on element :: 7ec8a494-cef9-4725-a7f8-c2d970ea3beb
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:25:21: Account: INFO: Element :: 65d96392-fa17-44ab-a894-4f1b8bdd96a6 found for locator :: ('id', 'password'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Text :: test12345 entered on element :: 65d96392-fa17-44ab-a894-4f1b8bdd96a6
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:25:21: Account: INFO: Element :: 10758da1-23ac-4dc2-9b75-25a4395476f1 found for locator :: ('id', 'confirmation'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Text :: test12345 entered on element :: 10758da1-23ac-4dc2-9b75-25a4395476f1
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:25:21: Account: INFO: Element :: 2e31d676-aa54-4a25-a0c9-ac2dc9b51eb9 found for locator :: ('id', 'is_subscribed'). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:21: Account: INFO: Clicked on Element : 2e31d676-aa54-4a25-a0c9-ac2dc9b51eb9
+28:08:21 00:25:21: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:25:21: Account: INFO: Element :: 09c9f76e-c05b-4860-9255-37d73f227fe9 found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: dfc5066bb67799bc1e0b03eec98d0df9
+28:08:21 00:25:22: Account: INFO: Clicked on Element : 09c9f76e-c05b-4860-9255-37d73f227fe9
+28:08:21 00:25:22: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:25:28: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:25:28: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:25:28: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-five-testttt@five.com-test12345-test12345-Thank_2021-08-28 00-25-28-159432.png
+28:08:21 00:25:30: <module>: INFO: Quiting the browser session
+28:08:21 00:25:31: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:25:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:25:34: Account: INFO: Element :: 8c848f50-65ad-42d3-b4d4-3eef666cecaa found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:34: Account: INFO: Clicked on Element : 8c848f50-65ad-42d3-b4d4-3eef666cecaa
+28:08:21 00:25:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:25:34: Account: INFO: Element :: 75fdf766-cc39-455c-8a59-89d0224fe433 found for locator :: ('link text', 'Register'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:34: Account: INFO: Clicked on Element : 75fdf766-cc39-455c-8a59-89d0224fe433
+28:08:21 00:25:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:25:34: Account: INFO: Element :: 389e1012-e2e5-41d4-979d-d0f1e906e819 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:34: Account: INFO: Clicked on Element : 389e1012-e2e5-41d4-979d-d0f1e906e819
+28:08:21 00:25:34: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:25:35: Account: INFO: Element :: 2bd81c7d-bc0d-4869-ad0e-34048b8d06af found for locator :: ('link text', 'Register'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:35: Account: INFO: Clicked on Element : 2bd81c7d-bc0d-4869-ad0e-34048b8d06af
+28:08:21 00:25:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:25:35: Account: INFO: Element :: b8c69082-0d8b-4a98-832c-894f36aea1ff found for locator :: ('id', 'firstname'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:35: Account: INFO: Text :: Testttt entered on element :: b8c69082-0d8b-4a98-832c-894f36aea1ff
+28:08:21 00:25:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:25:35: Account: INFO: Element :: d1c2efa1-5df4-44b1-92f9-06d2d44f8d0a found for locator :: ('id', 'lastname'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:35: Account: INFO: Text :: six entered on element :: d1c2efa1-5df4-44b1-92f9-06d2d44f8d0a
+28:08:21 00:25:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:25:35: Account: INFO: Element :: fd772310-b21b-4dce-91fa-7bfcc4142756 found for locator :: ('id', 'email_address'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:35: Account: INFO: Text :: testttt@six.com entered on element :: fd772310-b21b-4dce-91fa-7bfcc4142756
+28:08:21 00:25:35: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:25:35: Account: INFO: Element :: fa03418c-4184-4e43-b140-e479a6117244 found for locator :: ('id', 'password'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:36: Account: INFO: Text :: test12345 entered on element :: fa03418c-4184-4e43-b140-e479a6117244
+28:08:21 00:25:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:25:36: Account: INFO: Element :: 44736514-8d12-4ce1-83fc-0f1156b3a1f8 found for locator :: ('id', 'confirmation'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:36: Account: INFO: Text :: test12345 entered on element :: 44736514-8d12-4ce1-83fc-0f1156b3a1f8
+28:08:21 00:25:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:25:36: Account: INFO: Element :: f42e08aa-413d-414a-a53a-62ad721442bd found for locator :: ('id', 'is_subscribed'). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:36: Account: INFO: Clicked on Element : f42e08aa-413d-414a-a53a-62ad721442bd
+28:08:21 00:25:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:25:36: Account: INFO: Element :: 33e640a6-fa24-45e6-8f4c-9b3baa6d53fd found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: 5bf3307d681dfcefa88d6c30a6e53f7f
+28:08:21 00:25:36: Account: INFO: Clicked on Element : 33e640a6-fa24-45e6-8f4c-9b3baa6d53fd
+28:08:21 00:25:36: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:25:42: Account: ERROR: No Element found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Exception Occurred :: TimeoutException
+28:08:21 00:25:42: Account: ERROR: Element is not displayed. Unable to find element with locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:25:42: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_registration[Testttt-six-testttt@six.com-test12345-test12345-Thank_2021-08-28 00-25-42-438993.png
+28:08:21 00:25:44: <module>: INFO: Quiting the browser session
+28:08:21 00:27:22: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:27:24: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:27:24: MobilePage: INFO: Element :: 5b7a0d46-6df8-4c24-bcf4-794b6b196770 found for locator :: ('link text', 'MOBILE'). Session_id :: ff4b6e8998c9957a23d030e62c84b402
+28:08:21 00:27:25: MobilePage: INFO: Clicked on Element : 5b7a0d46-6df8-4c24-bcf4-794b6b196770
+28:08:21 00:27:25: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:27:25: MobilePage: INFO: Element :: b3ec249d-1563-4230-bf49-017ef637e42f found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: ff4b6e8998c9957a23d030e62c84b402
+28:08:21 00:27:26: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:27:26: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="ff4b6e8998c9957a23d030e62c84b402", element="f4f6ddd5-8711-4110-b42e-e9a842f19477")>, <selenium.webdriver.remote.webelement.WebElement (session="ff4b6e8998c9957a23d030e62c84b402", element="c41583f1-a139-4096-9837-2dfdb740a059")>, <selenium.webdriver.remote.webelement.WebElement (session="ff4b6e8998c9957a23d030e62c84b402", element="274c7f5b-b716-4345-8842-ac002b7ce3f6")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:27:26: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:27:26: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Name-[IPHONE,_2021-08-28 00-27-26-382586.png
+28:08:21 00:27:28: <module>: INFO: Quiting the browser session
+28:08:21 00:27:30: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:27:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:27:32: MobilePage: INFO: Element :: 0087c1a6-f789-46c8-bd9a-e893e6a413b5 found for locator :: ('link text', 'MOBILE'). Session_id :: 7d16316e2294e0641266b437ca18697b
+28:08:21 00:27:33: MobilePage: INFO: Clicked on Element : 0087c1a6-f789-46c8-bd9a-e893e6a413b5
+28:08:21 00:27:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:27:33: MobilePage: INFO: Element :: 52513698-d0e6-467f-8314-6973f4075141 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 7d16316e2294e0641266b437ca18697b
+28:08:21 00:27:33: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:27:33: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="7d16316e2294e0641266b437ca18697b", element="b7d7ad5b-3e9f-4c44-aa91-2b362292875c")>, <selenium.webdriver.remote.webelement.WebElement (session="7d16316e2294e0641266b437ca18697b", element="63c1eda3-08c3-4113-9c7c-66a90b080e7a")>, <selenium.webdriver.remote.webelement.WebElement (session="7d16316e2294e0641266b437ca18697b", element="54e809a6-f48d-44ce-a676-f0ca765548ba")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:27:33: MobilePage: INFO: The TEXT for Elements are :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+28:08:21 00:27:34: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_sort_by_functionality[Price-[SONY_2021-08-28 00-27-33-999986.png
+28:08:21 00:27:36: <module>: INFO: Quiting the browser session
+28:08:21 00:29:27: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:29:29: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:29:29: MobilePage: INFO: Element :: 15749c75-c964-4039-893d-16274b8a76bc found for locator :: ('link text', 'MOBILE'). Session_id :: 8a2a453cc9336024fe724d0609811cc6
+28:08:21 00:29:30: MobilePage: INFO: Clicked on Element : 15749c75-c964-4039-893d-16274b8a76bc
+28:08:21 00:29:30: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:29:30: MobilePage: INFO: Element :: 427b35b7-061e-4961-aab0-1659610f6fc7 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 8a2a453cc9336024fe724d0609811cc6
+28:08:21 00:29:31: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:29:31: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="8a2a453cc9336024fe724d0609811cc6", element="265c07bd-1119-4d76-a628-8e1ba5c54910")>, <selenium.webdriver.remote.webelement.WebElement (session="8a2a453cc9336024fe724d0609811cc6", element="03a42693-7f75-492f-ae53-abced7883889")>, <selenium.webdriver.remote.webelement.WebElement (session="8a2a453cc9336024fe724d0609811cc6", element="746f26c9-6cec-4e68-9122-59c05d73820c")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:29:31: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:29:33: <module>: INFO: Quiting the browser session
+28:08:21 00:29:34: WebDriverFactory: INFO: Starting CHROME browser in headless mode
+28:08:21 00:29:36: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:29:36: MobilePage: INFO: Element :: ccebc3e3-3b13-46a2-bedd-7b1661ffeedf found for locator :: ('link text', 'MOBILE'). Session_id :: 9e98cef3629fe1df1c073f95b8f6c2e5
+28:08:21 00:29:37: MobilePage: INFO: Clicked on Element : ccebc3e3-3b13-46a2-bedd-7b1661ffeedf
+28:08:21 00:29:37: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:29:37: MobilePage: INFO: Element :: 10bf73dc-d963-41a4-98e6-e49cc2a91763 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 9e98cef3629fe1df1c073f95b8f6c2e5
+28:08:21 00:29:38: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:29:38: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="9e98cef3629fe1df1c073f95b8f6c2e5", element="bf5189dd-a7af-4013-a4f8-eab30c3f4017")>, <selenium.webdriver.remote.webelement.WebElement (session="9e98cef3629fe1df1c073f95b8f6c2e5", element="4eb28bad-08c1-46bc-967f-a30f5cf6d5b8")>, <selenium.webdriver.remote.webelement.WebElement (session="9e98cef3629fe1df1c073f95b8f6c2e5", element="1f91744b-326f-4341-bce4-eb3a8fe91733")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:29:38: MobilePage: INFO: The TEXT for Elements are :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+28:08:21 00:29:40: <module>: INFO: Quiting the browser session
+28:08:21 00:30:56: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:30:58: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:30:58: MobilePage: INFO: Element :: 79e31e48-4827-4093-ba5d-3d094423587a found for locator :: ('link text', 'MOBILE'). Session_id :: aac052923d20d667da703e81102f32cb
+28:08:21 00:30:59: MobilePage: INFO: Clicked on Element : 79e31e48-4827-4093-ba5d-3d094423587a
+28:08:21 00:30:59: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:30:59: MobilePage: INFO: Element :: 245d2c70-6919-4f7e-b8f7-43c88a9c6923 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: aac052923d20d667da703e81102f32cb
+28:08:21 00:31:00: MobilePage: INFO: Clicked on Element : 245d2c70-6919-4f7e-b8f7-43c88a9c6923
+28:08:21 00:31:00: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:31:00: MobilePage: INFO: Element :: e0680b14-012d-4e87-a4f2-46c0c487f62a found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: aac052923d20d667da703e81102f32cb
+28:08:21 00:31:01: MobilePage: INFO: Clicked on Element : e0680b14-012d-4e87-a4f2-46c0c487f62a
+28:08:21 00:31:01: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:31:01: MobilePage: INFO: Element :: 30ec42f5-04c1-4898-8276-de8ec15b0f48 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: aac052923d20d667da703e81102f32cb
+28:08:21 00:31:01: MobilePage: INFO: Clicked on Element : 30ec42f5-04c1-4898-8276-de8ec15b0f48
+28:08:21 00:31:01: MobilePage: INFO: All available Window's are :: ['CDwindow-9F6717810DEBFB62725446980C6D5E85', 'CDwindow-9D3E3DDE873BE06A052D7008F72A1E0B']
+28:08:21 00:31:01: MobilePage: INFO: Switched to new window :: CDwindow-9D3E3DDE873BE06A052D7008F72A1E0B
+28:08:21 00:31:01: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:02: MobilePage: INFO: Element :: afebd29b-4a0e-48ba-b917-0e9da425582d found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: aac052923d20d667da703e81102f32cb
+28:08:21 00:31:02: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:04: <module>: INFO: Quiting the browser session
+28:08:21 00:31:05: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:07: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:31:07: MobilePage: INFO: Element :: 59ad4380-8134-4531-b6ae-7d757c29f89d found for locator :: ('link text', 'MOBILE'). Session_id :: a2d96ab16a7bd14244bcb776e2a4c788
+28:08:21 00:31:08: MobilePage: INFO: Clicked on Element : 59ad4380-8134-4531-b6ae-7d757c29f89d
+28:08:21 00:31:08: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:31:08: MobilePage: INFO: Element :: cade787a-0bb1-45cb-9e0a-65eddd6a407c found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: a2d96ab16a7bd14244bcb776e2a4c788
+28:08:21 00:31:09: MobilePage: INFO: Clicked on Element : cade787a-0bb1-45cb-9e0a-65eddd6a407c
+28:08:21 00:31:09: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:31:09: MobilePage: INFO: Element :: 2862880e-1ef2-449d-a4d9-820a4089f2c7 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: a2d96ab16a7bd14244bcb776e2a4c788
+28:08:21 00:31:10: MobilePage: INFO: Clicked on Element : 2862880e-1ef2-449d-a4d9-820a4089f2c7
+28:08:21 00:31:10: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:31:10: MobilePage: INFO: Element :: 1ccdc772-472b-4d70-a71c-26c539c31f23 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: a2d96ab16a7bd14244bcb776e2a4c788
+28:08:21 00:31:10: MobilePage: INFO: Clicked on Element : 1ccdc772-472b-4d70-a71c-26c539c31f23
+28:08:21 00:31:10: MobilePage: INFO: All available Window's are :: ['CDwindow-6D63B13B78F9354500D2F60530E2AA03', 'CDwindow-E1426040EA5AF1D5BE2773B4B2241F4E']
+28:08:21 00:31:10: MobilePage: INFO: Switched to new window :: CDwindow-E1426040EA5AF1D5BE2773B4B2241F4E
+28:08:21 00:31:10: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:11: MobilePage: INFO: Element :: 0bfd6e64-910d-4cbf-a5ad-afe1f6009bdb found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: a2d96ab16a7bd14244bcb776e2a4c788
+28:08:21 00:31:11: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:14: <module>: INFO: Quiting the browser session
+28:08:21 00:31:15: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:17: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:31:17: MobilePage: INFO: Element :: 7b776ed1-5855-46b3-96c2-107cb79240fe found for locator :: ('link text', 'MOBILE'). Session_id :: 2e8c15d99bd48a4331b11eccb5e2eae2
+28:08:21 00:31:18: MobilePage: INFO: Clicked on Element : 7b776ed1-5855-46b3-96c2-107cb79240fe
+28:08:21 00:31:18: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:31:18: MobilePage: INFO: Element :: ea4d7cd0-e9c5-4e38-928e-313c289e7fb6 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 2e8c15d99bd48a4331b11eccb5e2eae2
+28:08:21 00:31:19: MobilePage: INFO: Clicked on Element : ea4d7cd0-e9c5-4e38-928e-313c289e7fb6
+28:08:21 00:31:19: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:31:19: MobilePage: INFO: Element :: 54ea3bc9-3ad0-47ff-ab53-7a1664142561 found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 2e8c15d99bd48a4331b11eccb5e2eae2
+28:08:21 00:31:20: MobilePage: INFO: Clicked on Element : 54ea3bc9-3ad0-47ff-ab53-7a1664142561
+28:08:21 00:31:20: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 00:31:20: MobilePage: INFO: Element :: 71ce74d6-68d6-4061-931d-98a64879fe54 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 2e8c15d99bd48a4331b11eccb5e2eae2
+28:08:21 00:31:20: MobilePage: INFO: Clicked on Element : 71ce74d6-68d6-4061-931d-98a64879fe54
+28:08:21 00:31:20: MobilePage: INFO: All available Window's are :: ['CDwindow-15A69DAE90D59D40E9C1F9E63907CE1F', 'CDwindow-319881B0015045C66326BFB3281099C5']
+28:08:21 00:31:20: MobilePage: INFO: Switched to new window :: CDwindow-319881B0015045C66326BFB3281099C5
+28:08:21 00:31:20: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:21: MobilePage: INFO: Element :: 9d8d4fbf-9f07-4fc3-943b-865f5858afad found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 2e8c15d99bd48a4331b11eccb5e2eae2
+28:08:21 00:31:21: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 00:31:23: <module>: INFO: Quiting the browser session
+28:08:21 00:31:25: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:26: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:31:26: MobilePage: INFO: Element :: b7cb8c7a-d4ca-45fd-90f9-8497137c1124 found for locator :: ('link text', 'MOBILE'). Session_id :: 9d2e174532e16c5268a23247363876a4
+28:08:21 00:31:27: MobilePage: INFO: Clicked on Element : b7cb8c7a-d4ca-45fd-90f9-8497137c1124
+28:08:21 00:31:27: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="9d2e174532e16c5268a23247363876a4", element="8d8760c5-37ab-401a-8850-41ab2feb3c4a")>, <selenium.webdriver.remote.webelement.WebElement (session="9d2e174532e16c5268a23247363876a4", element="5999e6d6-220d-41b1-a7a6-5cf76f2e7f89")>, <selenium.webdriver.remote.webelement.WebElement (session="9d2e174532e16c5268a23247363876a4", element="1031174b-bd87-4947-9435-9a6e5c4b2134")>] for locator :: ('xpath', "//div[@class='category-products']/ul/li/a")
+28:08:21 00:31:27: MobilePage: INFO: Value of attribute
+28:08:21 00:31:27: MobilePage: INFO: Value of attribute
+28:08:21 00:31:27: MobilePage: INFO: Value of attribute
+28:08:21 00:31:27: MobilePage: INFO: Attribute list is :: ['Xperia', 'IPhone', 'Samsung Galaxy']
+28:08:21 00:31:28: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_one_2021-08-28 00-31-28-045446.png
+28:08:21 00:31:31: <module>: INFO: Quiting the browser session
+28:08:21 00:31:32: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:34: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:31:34: MobilePage: INFO: Element :: bec3bc1b-4274-4f61-bf48-4335d8e252b1 found for locator :: ('link text', 'MOBILE'). Session_id :: 4d480a5038e4dbc4d4237a9781d36b0c
+28:08:21 00:31:35: MobilePage: INFO: Clicked on Element : bec3bc1b-4274-4f61-bf48-4335d8e252b1
+28:08:21 00:31:35: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:31:35: MobilePage: INFO: Element :: ef891ceb-f070-4279-9026-57ed59ea0eb3 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: 4d480a5038e4dbc4d4237a9781d36b0c
+28:08:21 00:31:35: MobilePage: INFO: Selected element with value Name from the drop down using Visible Text
+28:08:21 00:31:35: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="4d480a5038e4dbc4d4237a9781d36b0c", element="76bcbc66-6eae-48f3-87d7-52cf7889e9b9")>, <selenium.webdriver.remote.webelement.WebElement (session="4d480a5038e4dbc4d4237a9781d36b0c", element="d1689bf0-a790-44ce-a9b9-959203954cdb")>, <selenium.webdriver.remote.webelement.WebElement (session="4d480a5038e4dbc4d4237a9781d36b0c", element="9d55662e-cbb3-447f-afb5-b8e0555ab694")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:31:36: MobilePage: INFO: The TEXT for Elements are :: ['IPHONE', 'SAMSUNG GALAXY', 'SONY XPERIA']
+28:08:21 00:31:38: <module>: INFO: Quiting the browser session
+28:08:21 00:31:39: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:41: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:31:41: MobilePage: INFO: Element :: 92246926-7147-4c8d-99ef-f553907e660c found for locator :: ('link text', 'MOBILE'). Session_id :: a8ece76bb9dabbba4751e3d48c87c333
+28:08:21 00:31:42: MobilePage: INFO: Clicked on Element : 92246926-7147-4c8d-99ef-f553907e660c
+28:08:21 00:31:42: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//select[@title='Sort By']")
+28:08:21 00:31:42: MobilePage: INFO: Element :: 0bca4cfb-6f0b-4842-94d8-6fb6ef7843f2 found for locator :: ('xpath', "//select[@title='Sort By']"). Session_id :: a8ece76bb9dabbba4751e3d48c87c333
+28:08:21 00:31:42: MobilePage: INFO: Selected element with value Price from the drop down using Visible Text
+28:08:21 00:31:42: MobilePage: INFO: Elements list returned::  [<selenium.webdriver.remote.webelement.WebElement (session="a8ece76bb9dabbba4751e3d48c87c333", element="ed0a6bfd-93c3-4b9c-a761-5624eee571a6")>, <selenium.webdriver.remote.webelement.WebElement (session="a8ece76bb9dabbba4751e3d48c87c333", element="a64fbb9c-cbf2-443f-95ad-e5e32d70e090")>, <selenium.webdriver.remote.webelement.WebElement (session="a8ece76bb9dabbba4751e3d48c87c333", element="aac9dbf8-5082-4889-a570-f185a879af5d")>] for locator :: ('xpath', "//li[@class='item last']//child::div/h2/a")
+28:08:21 00:31:43: MobilePage: INFO: The TEXT for Elements are :: ['SONY XPERIA', 'SAMSUNG GALAXY', 'IPHONE']
+28:08:21 00:31:45: <module>: INFO: Quiting the browser session
+28:08:21 00:31:46: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:31:48: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:31:48: Account: INFO: Element :: 2ef34e00-2de3-4a54-9bab-250277d8b795 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:48: Account: INFO: Clicked on Element : 2ef34e00-2de3-4a54-9bab-250277d8b795
+28:08:21 00:31:48: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:31:48: Account: INFO: Element :: 28b6745d-8088-46e0-bbac-c7e9a337e170 found for locator :: ('link text', 'Register'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:49: Account: INFO: Clicked on Element : 28b6745d-8088-46e0-bbac-c7e9a337e170
+28:08:21 00:31:49: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a/span[text()='Account']")
+28:08:21 00:31:49: Account: INFO: Element :: 495f0661-2601-4edc-a69c-b0cd9d511c05 found for locator :: ('xpath', "//a/span[text()='Account']"). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:49: Account: INFO: Clicked on Element : 495f0661-2601-4edc-a69c-b0cd9d511c05
+28:08:21 00:31:49: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'Register')
+28:08:21 00:31:49: Account: INFO: Element :: 18861a06-f908-4141-85cf-9a7d77b08a17 found for locator :: ('link text', 'Register'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:49: Account: INFO: Clicked on Element : 18861a06-f908-4141-85cf-9a7d77b08a17
+28:08:21 00:31:49: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'firstname')
+28:08:21 00:31:49: Account: INFO: Element :: 077905d1-61a9-485e-a11f-ee2a4efb09b8 found for locator :: ('id', 'firstname'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:49: Account: INFO: Text :: Testtttt entered on element :: 077905d1-61a9-485e-a11f-ee2a4efb09b8
+28:08:21 00:31:49: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'lastname')
+28:08:21 00:31:49: Account: INFO: Element :: 0984b395-706a-4d82-93ff-5ae6ff5b8bc8 found for locator :: ('id', 'lastname'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:49: Account: INFO: Text :: five entered on element :: 0984b395-706a-4d82-93ff-5ae6ff5b8bc8
+28:08:21 00:31:49: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'email_address')
+28:08:21 00:31:49: Account: INFO: Element :: 12506ed2-0b49-43c2-b19d-ac9f419e8e3d found for locator :: ('id', 'email_address'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:50: Account: INFO: Text :: testtttt@five.com entered on element :: 12506ed2-0b49-43c2-b19d-ac9f419e8e3d
+28:08:21 00:31:50: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'password')
+28:08:21 00:31:50: Account: INFO: Element :: 1facba74-3e15-40f4-a0e7-89408527ce59 found for locator :: ('id', 'password'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:50: Account: INFO: Text :: test12345 entered on element :: 1facba74-3e15-40f4-a0e7-89408527ce59
+28:08:21 00:31:50: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'confirmation')
+28:08:21 00:31:50: Account: INFO: Element :: 673d799e-d68d-4e62-9972-3a719f5d95d9 found for locator :: ('id', 'confirmation'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:50: Account: INFO: Text :: test12345 entered on element :: 673d799e-d68d-4e62-9972-3a719f5d95d9
+28:08:21 00:31:50: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('id', 'is_subscribed')
+28:08:21 00:31:50: Account: INFO: Element :: 2ec2b610-cada-4ddf-9107-741138bbd4c7 found for locator :: ('id', 'is_subscribed'). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:50: Account: INFO: Clicked on Element : 2ec2b610-cada-4ddf-9107-741138bbd4c7
+28:08:21 00:31:50: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//button[@title='Register']")
+28:08:21 00:31:50: Account: INFO: Element :: 6c9748f0-e75e-4858-8fc5-cedade909f26 found for locator :: ('xpath', "//button[@title='Register']"). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:51: Account: INFO: Clicked on Element : 6c9748f0-e75e-4858-8fc5-cedade909f26
+28:08:21 00:31:51: Account: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:31:51: Account: INFO: Element :: b13948e6-49ea-48bd-a0f8-c07ae0daa547 found for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']"). Session_id :: 79d1714610b63b516eacab1d8ea08da3
+28:08:21 00:31:51: Account: INFO: Element is displayed for locator :: ('xpath', "//span[text()='Thank you for registering with Main Website Store.']")
+28:08:21 00:31:53: <module>: INFO: Quiting the browser session
+28:08:21 00:37:02: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:37:03: WebDriverFactory: INFO: Opening the URL :: http://live.demoguru99.com/index.php/
+28:08:21 00:37:04: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:38:12: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 00:38:14: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 00:38:14: MobilePage: INFO: Element :: 6795669c-5e23-4aea-ad26-1226fc83b7e3 found for locator :: ('link text', 'MOBILE'). Session_id :: 7912c4e240b15b0d415cccc77945ff1f
+28:08:21 00:38:14: MobilePage: INFO: Clicked on Element : 6795669c-5e23-4aea-ad26-1226fc83b7e3
+28:08:21 00:38:14: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 00:38:14: MobilePage: INFO: Element :: b98aea1f-0483-461c-a146-47eeea4f6b66 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 7912c4e240b15b0d415cccc77945ff1f
+28:08:21 00:38:15: MobilePage: INFO: Clicked on Element : b98aea1f-0483-461c-a146-47eeea4f6b66
+28:08:21 00:38:15: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 20:57:28: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:57:28: SeleniumBase: ERROR: ### Exception Occurred ModuleNotFoundErrorNo module named 'PIL'
+28:08:21 20:57:30: <module>: INFO: Quiting the browser session
+28:08:21 20:57:32: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:57:32: SeleniumBase: ERROR: ### Exception Occurred ModuleNotFoundErrorNo module named 'PIL'
+28:08:21 20:57:34: <module>: INFO: Quiting the browser session
+28:08:21 20:57:36: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:57:36: SeleniumBase: ERROR: ### Exception Occurred ModuleNotFoundErrorNo module named 'PIL'
+28:08:21 20:57:38: <module>: INFO: Quiting the browser session
+28:08:21 20:59:10: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:59:11: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 20-59-10-714685.png
+28:08:21 20:59:13: <module>: INFO: Quiting the browser session
+28:08:21 20:59:15: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:59:15: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 20-59-15-394993.png
+28:08:21 20:59:18: <module>: INFO: Quiting the browser session
+28:08:21 20:59:19: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 20:59:20: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 20-59-19-706428.png
+28:08:21 20:59:22: <module>: INFO: Quiting the browser session
+28:08:21 21:02:57: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:02:58: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 21-02-58-134902.png
+28:08:21 21:03:00: <module>: INFO: Quiting the browser session
+28:08:21 21:03:02: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:03:02: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 21-03-02-497731.png
+28:08:21 21:03:05: <module>: INFO: Quiting the browser session
+28:08:21 21:03:06: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:03:07: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 21-03-06-726041.png
+28:08:21 21:03:09: <module>: INFO: Quiting the browser session
+28:08:21 21:06:23: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:06:23: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 21-06-23-486844.png
+28:08:21 21:06:26: <module>: INFO: Quiting the browser session
+28:08:21 21:06:27: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:06:28: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Samsung_2021-08-28 21-06-27-817409.png
+28:08:21 21:07:09: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:07:12: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 21:07:12: MobilePage: INFO: Element :: 8fe45f4e-effa-452b-bb6d-46223572f29d found for locator :: ('link text', 'MOBILE'). Session_id :: 7af99e914233e997cffb09e7651c2c95
+28:08:21 21:07:12: MobilePage: INFO: Clicked on Element : 8fe45f4e-effa-452b-bb6d-46223572f29d
+28:08:21 21:07:12: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:12: MobilePage: INFO: Element :: cfa7fc32-6650-4d04-b952-d6772dfb2dc4 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 7af99e914233e997cffb09e7651c2c95
+28:08:21 21:07:13: MobilePage: INFO: Clicked on Element : cfa7fc32-6650-4d04-b952-d6772dfb2dc4
+28:08:21 21:07:13: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:13: MobilePage: INFO: Element :: 0687355d-f156-43ae-80a8-6936528837db found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 7af99e914233e997cffb09e7651c2c95
+28:08:21 21:07:14: MobilePage: INFO: Clicked on Element : 0687355d-f156-43ae-80a8-6936528837db
+28:08:21 21:07:14: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 21:07:14: MobilePage: INFO: Element :: 834f16f1-8f26-4a87-b7c8-ec39e3eb74f8 found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 7af99e914233e997cffb09e7651c2c95
+28:08:21 21:07:14: MobilePage: INFO: Clicked on Element : 834f16f1-8f26-4a87-b7c8-ec39e3eb74f8
+28:08:21 21:07:14: MobilePage: INFO: All available Window's are :: ['CDwindow-3705245BFB0B16C7B9EADB5C196231A5', 'CDwindow-53092DE907E6C2443A9F936092B2494C']
+28:08:21 21:07:14: MobilePage: INFO: Switched to new window :: CDwindow-53092DE907E6C2443A9F936092B2494C
+28:08:21 21:07:14: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:15: MobilePage: INFO: Element :: 22be2d85-7f5c-4d65-9f96-ac1155ab3486 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 7af99e914233e997cffb09e7651c2c95
+28:08:21 21:07:15: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:17: <module>: INFO: Quiting the browser session
+28:08:21 21:07:19: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:07:21: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 21:07:21: MobilePage: INFO: Element :: 77b3ea0a-ecc2-4d93-81b0-0b15f399bf9e found for locator :: ('link text', 'MOBILE'). Session_id :: 9582ce7e46b2ba4ca886234b51c9016f
+28:08:21 21:07:21: MobilePage: INFO: Clicked on Element : 77b3ea0a-ecc2-4d93-81b0-0b15f399bf9e
+28:08:21 21:07:21: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:21: MobilePage: INFO: Element :: 614206bb-9c17-4fa1-a1e9-55e14a57312e found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 9582ce7e46b2ba4ca886234b51c9016f
+28:08:21 21:07:22: MobilePage: INFO: Clicked on Element : 614206bb-9c17-4fa1-a1e9-55e14a57312e
+28:08:21 21:07:22: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:22: MobilePage: INFO: Element :: d2135731-4558-4354-a423-f3fc0379e5a5 found for locator :: ('xpath', "//a[text()='IPhone']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 9582ce7e46b2ba4ca886234b51c9016f
+28:08:21 21:07:23: MobilePage: INFO: Clicked on Element : d2135731-4558-4354-a423-f3fc0379e5a5
+28:08:21 21:07:23: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 21:07:23: MobilePage: INFO: Element :: b3890db4-414e-47f0-b4d8-b4c870bf6e8e found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 9582ce7e46b2ba4ca886234b51c9016f
+28:08:21 21:07:24: MobilePage: INFO: Clicked on Element : b3890db4-414e-47f0-b4d8-b4c870bf6e8e
+28:08:21 21:07:24: MobilePage: INFO: All available Window's are :: ['CDwindow-18C970A2E7AA30A90F2E48DEAE0B77D4', 'CDwindow-AF2E605ACD2E19F78C7AD2BF52CB5FDF']
+28:08:21 21:07:24: MobilePage: INFO: Switched to new window :: CDwindow-AF2E605ACD2E19F78C7AD2BF52CB5FDF
+28:08:21 21:07:24: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:24: MobilePage: INFO: Element :: b1e23d39-42ce-4c61-b1f5-ae54757ceaf8 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 9582ce7e46b2ba4ca886234b51c9016f
+28:08:21 21:07:25: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:27: <module>: INFO: Quiting the browser session
+28:08:21 21:07:28: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:07:30: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('link text', 'MOBILE')
+28:08:21 21:07:30: MobilePage: INFO: Element :: 4cf209dc-c5da-4b77-8be7-838b672c325e found for locator :: ('link text', 'MOBILE'). Session_id :: 216d313083c3b938bcde17deca753a48
+28:08:21 21:07:31: MobilePage: INFO: Clicked on Element : 4cf209dc-c5da-4b77-8be7-838b672c325e
+28:08:21 21:07:31: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:31: MobilePage: INFO: Element :: 7ff2a5c1-eda4-4fca-bd3d-693c9bdf1904 found for locator :: ('xpath', "//a[text()='Sony Xperia']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 216d313083c3b938bcde17deca753a48
+28:08:21 21:07:32: MobilePage: INFO: Clicked on Element : 7ff2a5c1-eda4-4fca-bd3d-693c9bdf1904
+28:08:21 21:07:32: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']")
+28:08:21 21:07:32: MobilePage: INFO: Element :: 0b3567c5-c11a-4cf5-a8bd-9d4d8e07756a found for locator :: ('xpath', "//a[text()='Samsung Galaxy']/parent::h2/parent::div/child::div/child::ul/li/a[text()='Add to Compare']"). Session_id :: 216d313083c3b938bcde17deca753a48
+28:08:21 21:07:33: MobilePage: INFO: Clicked on Element : 0b3567c5-c11a-4cf5-a8bd-9d4d8e07756a
+28:08:21 21:07:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//span[text()='Compare']")
+28:08:21 21:07:33: MobilePage: INFO: Element :: 971fed24-0152-44c6-a57e-8e20a7c487af found for locator :: ('xpath', "//span[text()='Compare']"). Session_id :: 216d313083c3b938bcde17deca753a48
+28:08:21 21:07:33: MobilePage: INFO: Clicked on Element : 971fed24-0152-44c6-a57e-8e20a7c487af
+28:08:21 21:07:33: MobilePage: INFO: All available Window's are :: ['CDwindow-825F49C26F35425DDFE0D3B8112BC149', 'CDwindow-79F4A35FD149EBD8CDC9B8411C368038']
+28:08:21 21:07:33: MobilePage: INFO: Switched to new window :: CDwindow-79F4A35FD149EBD8CDC9B8411C368038
+28:08:21 21:07:33: MobilePage: INFO: Waiting for 5 seconds to find the element for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:34: MobilePage: INFO: Element :: 5bb938fb-285b-4b2b-865d-7fec40589de1 found for locator :: ('xpath', "//h1[text()='Compare Products']"). Session_id :: 216d313083c3b938bcde17deca753a48
+28:08:21 21:07:34: MobilePage: INFO: Element is displayed for locator :: ('xpath', "//h1[text()='Compare Products']")
+28:08:21 21:07:36: <module>: INFO: Quiting the browser session
+28:08:21 21:08:48: WebDriverFactory: INFO: Starting CHROME browser 
+28:08:21 21:08:49: SeleniumBase: INFO: ### Screenshot saved at path: C:\Users\Atique\PycharmProjects\git-pytest-bdd\base\..//logs//screenshots//2021-08-28//test_compare_functionality[Sony_2021-08-28 21-08-48-911061.png

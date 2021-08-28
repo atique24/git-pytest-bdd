@@ -1,5 +1,7 @@
 .cache/
 .idea/
 *__pycache__/
-*.log
+.log
 *.pytest_cache/
+*venv/
+.gitignore
